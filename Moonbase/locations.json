@@ -1,0 +1,479 @@
+{
+  "stationSections": {
+    "commandModuleAlpha": {
+      "officialDesignation": "Command Module Alpha",
+      "description": "Hexagonal primary control hub located at the center of the complex for maximum protection",
+      "securityLevel": "Maximum - biometric and credential verification required",
+      "population": "45 permanent personnel, including Director and senior leadership",
+      "keyLocations": [
+        {
+          "name": "Operations Deck",
+          "function": "Primary station operations and monitoring",
+          "restricted": "Senior staff and authorized operations personnel",
+          "significance": "Contains override capabilities for all station systems",
+          "secrets": "Hidden xenoarchaeological analysis station beneath main console"
+        },
+        {
+          "name": "Communications Hub",
+          "function": "Maintains contact with Earth, orbital platform, and surface teams",
+          "restricted": "Communications specialists and senior leadership",
+          "significance": "Only reliable encrypted channel to Earth headquarters",
+          "secrets": "Director's private communication channel separate from main systems"
+        },
+        {
+          "name": "Senior Staff Quarters",
+          "function": "Living space for Director and Section Chiefs",
+          "restricted": "Residents and authorized staff only",
+          "significance": "Only private accommodations on station",
+          "secrets": "Director Vega's quarters contain hidden archive of all xenoarchaeological findings"
+        },
+        {
+          "name": "Tactical Operations Center",
+          "function": "Security monitoring and mission planning",
+          "restricted": "Security personnel and senior leadership",
+          "significance": "All surveillance feeds route through this location",
+          "secrets": "Contains termination protocols for compromised research personnel"
+        }
+      ],
+      "environmentalFactors": {
+        "gravity": "0.8G (artificial)",
+        "atmosphere": "Earth-standard with enhanced oxygen",
+        "privacy": "All areas under constant surveillance",
+        "amenities": "Imported Earth luxuries, priority resource allocation"
+      }
+    },
+    "researchWing": {
+      "officialDesignation": "Xenoarchaeological Research Complex",
+      "description": "Sprawling laboratory facility with specialized containment units",
+      "securityLevel": "High - biometric verification and clearance level checks",
+      "population": "120 research personnel of various specialties",
+      "keyLocations": [
+        {
+          "name": "Artifact Analysis Labs",
+          "function": "Study and documentation of recovered xenotech",
+          "restricted": "Cleared research personnel only",
+          "significance": "Primary site for understanding ancient technology",
+          "secrets": "Several artifacts remain partially active despite age"
+        },
+        {
+          "name": "Symbol Translation Center",
+          "function": "Deciphering alien language and symbolic systems",
+          "restricted": "Xenolinguistics team with special clearance",
+          "significance": "Houses the most complete record of alien script",
+          "secrets": "Translation team experiencing collective dreams featuring symbols"
+        },
+        {
+          "name": "Anomaly Containment",
+          "function": "Isolation of potentially hazardous artifacts",
+          "restricted": "Highest clearance only with security oversight",
+          "significance": "Specially shielded to contain unpredictable energies",
+          "secrets": "Contains the Black Mirror artifact that remains active"
+        },
+        {
+          "name": "Director's Research Suite",
+          "function": "Private research facility for Dr. Nakamura",
+          "restricted": "Head of Research and authorized assistants only",
+          "significance": "Houses the most sensitive discoveries",
+          "secrets": "Nakamura conducting unauthorized experiments with active artifacts"
+        }
+      ],
+      "environmentalFactors": {
+        "gravity": "0.6G (artificial)",
+        "atmosphere": "Sterile, controlled humidity and temperature",
+        "privacy": "Comprehensive monitoring of all activities",
+        "amenities": "Advanced research equipment, specialized tools"
+      }
+    },
+    "medicalBay": {
+      "officialDesignation": "Medical and Psychological Services",
+      "description": "Comprehensive medical facility with isolation wards",
+      "securityLevel": "Moderate - medical personnel and patient authorization",
+      "population": "45 medical staff plus variable patient load",
+      "keyLocations": [
+        {
+          "name": "Trauma Center",
+          "function": "Emergency medical treatment facility",
+          "restricted": "Medical personnel and emergency patients",
+          "significance": "Equipped for all types of physical injuries",
+          "secrets": "Morgue processes three times more bodies than officially reported"
+        },
+        {
+          "name": "Radiation Treatment Wing",
+          "function": "Specialized care for radiation exposure",
+          "restricted": "Radiation specialists and affected patients",
+          "significance": "Primary facility for managing exposure cases",
+          "secrets": "Experimental treatments tested on terminal patients"
+        },
+        {
+          "name": "Psychological Evaluation Center",
+          "function": "Mental health monitoring and treatment",
+          "restricted": "Psychological staff and scheduled patients",
+          "significance": "Mandatory evaluations for all personnel",
+          "secrets": "Dr. Okafor's private database of artifact-induced psychological phenomena"
+        },
+        {
+          "name": "Isolation Wards",
+          "function": "Quarantine facilities for unknown pathologies",
+          "restricted": "Special clearance medical staff only",
+          "significance": "Only fully contained medical environment",
+          "secrets": "Currently houses researchers exhibiting synchronous hallucinations"
+        }
+      ],
+      "environmentalFactors": {
+        "gravity": "0.7G (artificial)",
+        "atmosphere": "Highly filtered, pathogen control systems",
+        "privacy": "Medical confidentiality protocols with security exceptions",
+        "amenities": "Priority medical supplies, specialized equipment"
+      }
+    },
+    "engineeringSector": {
+      "officialDesignation": "Infrastructure and Systems Maintenance",
+      "description": "Heart of the station's life support and power systems",
+      "securityLevel": "Moderate to High - varies by subsection",
+      "population": "230 engineering personnel on rotating shifts",
+      "keyLocations": [
+        {
+          "name": "Primary Fusion Reactors",
+          "function": "Main power generation for the entire facility",
+          "restricted": "Power systems engineers only",
+          "significance": "Provides 80% of station power needs",
+          "secrets": "Unexplained power fluctuations correlate with artifact activity"
+        },
+        {
+          "name": "Life Support Control",
+          "function": "Atmospheric regulation and water reclamation",
+          "restricted": "Life systems engineers and supervisors",
+          "significance": "Triple redundant systems for station survival",
+          "secrets": "Programmed to prioritize Command Module in catastrophic failure"
+        },
+        {
+          "name": "Systems Monitoring Center",
+          "function": "Centralized oversight of all engineering systems",
+          "restricted": "Engineering staff with supervisor clearance",
+          "significance": "Early warning of potential failures",
+          "secrets": "Dr. Reeves' unauthorized monitoring of energy fluctuations near artifact storage"
+        },
+        {
+          "name": "Engineering Workshop",
+          "function": "Repair and fabrication of critical components",
+          "restricted": "Qualified technical personnel",
+          "significance": "Can manufacture replacement parts with limited resources",
+          "secrets": "Reeves has constructed private shielded workspace for independent research"
+        }
+      ],
+      "environmentalFactors": {
+        "gravity": "0.5G (artificial)",
+        "atmosphere": "Higher oxygen content for emergency situations",
+        "privacy": "Functional monitoring focused on systems rather than personnel",
+        "amenities": "Practical facilities prioritizing functionality over comfort"
+      }
+    },
+    "habitationRings": {
+      "officialDesignation": "Residential and Recreation Facilities",
+      "description": "Three concentric rings of living quarters and common areas",
+      "securityLevel": "Low to Moderate - primarily access control to appropriate ring",
+      "population": "Approximately 2,500 general personnel",
+      "keyLocations": [
+        {
+          "name": "Inner Ring Quarters",
+          "function": "Housing for mid-level personnel and specialists",
+          "restricted": "Authorized residents only",
+          "significance": "Higher quality accommodations with greater privacy",
+          "secrets": "Several quarters modified for unofficial research projects"
+        },
+        {
+          "name": "Middle Ring Quarters",
+          "function": "Housing for technical and general staff",
+          "restricted": "Authorized residents only",
+          "significance": "Standard accommodations for majority of crew",
+          "secrets": "Unofficial surveillance network monitoring for signs of unrest"
+        },
+        {
+          "name": "Outer Ring Quarters",
+          "function": "Housing for maintenance and labor crew",
+          "restricted": "Authorized residents only",
+          "significance": "Higher density, minimal privacy accommodations",
+          "secrets": "Multiple unauthorized access points to Lower Deck areas"
+        },
+        {
+          "name": "Recreational Facilities",
+          "function": "Exercise areas, VR suites, and communal spaces",
+          "restricted": "All station personnel with appropriate clearance",
+          "significance": "Critical for psychological wellbeing",
+          "secrets": "The Pit - unofficial fighting ring in repurposed storage area"
+        }
+      ],
+      "environmentalFactors": {
+        "gravity": "0.6G (artificial)",
+        "atmosphere": "Standard with artificial day/night cycle",
+        "privacy": "Variable based on ring and rank",
+        "amenities": "Quality decreases from inner to outer rings"
+      }
+    },
+    "securityHub": {
+      "officialDesignation": "Station Defense and Order Maintenance",
+      "description": "Fortified command center for security operations",
+      "securityLevel": "Maximum - security personnel with appropriate clearance only",
+      "population": "200 security personnel on rotating shifts",
+      "keyLocations": [
+        {
+          "name": "Security Operations Center",
+          "function": "Coordination of all security activities",
+          "restricted": "Security officers with command clearance",
+          "significance": "Central monitoring of all security systems",
+          "secrets": "Contains logs of personnel terminations authorized by Director Vega"
+        },
+        {
+          "name": "Armory",
+          "function": "Storage and maintenance of weapons and tactical equipment",
+          "restricted": "Armory officers and authorized security personnel",
+          "significance": "Contains all station weaponry",
+          "secrets": "Major Reid's private weapons cache in hidden compartment"
+        },
+        {
+          "name": "Detention Center",
+          "function": "Holding cells for rule violations and security threats",
+          "restricted": "Security personnel with prisoner handling authorization",
+          "significance": "Only official detention facility on station",
+          "secrets": "Isolation cell for personnel exposed to sensitive information"
+        },
+        {
+          "name": "Tactical Training Facility",
+          "function": "Combat and crisis response training area",
+          "restricted": "Security personnel during scheduled sessions",
+          "significance": "Maintains security force readiness",
+          "secrets": "Simulations include scenarios for containing station-wide panic"
+        }
+      ],
+      "environmentalFactors": {
+        "gravity": "0.7G (artificial)",
+        "atmosphere": "Standard with independent air supply",
+        "privacy": "Continuous monitoring of all activities",
+        "amenities": "Functional facilities designed for efficiency"
+      }
+    },
+    "launchBays": {
+      "officialDesignation": "Surface Operations and Vehicle Maintenance",
+      "description": "Six reinforced hangars for surface vehicles and equipment",
+      "securityLevel": "Moderate - mission authorization required",
+      "population": "80 support personnel plus mission teams",
+      "keyLocations": [
+        {
+          "name": "Vehicle Hangars",
+          "function": "Storage and maintenance of surface exploration vehicles",
+          "restricted": "Authorized maintenance and mission personnel",
+          "significance": "Houses all ATV Crawlers, RAVEN drones and specialized equipment",
+          "secrets": "Staff Sergeant Diaz keeps unauthorized equipment modifications"
+        },
+        {
+          "name": "Mission Control",
+          "function": "Coordination and monitoring of surface operations",
+          "restricted": "Mission controllers and command staff",
+          "significance": "Maintains contact with away teams",
+          "secrets": "Records of all mission disasters stored in secure server"
+        },
+        {
+          "name": "Equipment Storage",
+          "function": "Warehousing of EVA suits and mission supplies",
+          "restricted": "Logistics personnel and mission team members",
+          "significance": "Critical resources for all surface activities",
+          "secrets": "Several EVS-7 suits modified with experimental technology"
+        },
+        {
+          "name": "Decontamination",
+          "function": "Processing of returning personnel and equipment",
+          "restricted": "Decon specialists and returning mission teams",
+          "significance": "Prevents external contaminants from entering station",
+          "secrets": "Unauthorized samples smuggled through alternative entry points"
+        }
+      ],
+      "environmentalFactors": {
+        "gravity": "Variable - 0.4G to Io natural (0.183G)",
+        "atmosphere": "Airlocks and pressure gradients between hangar sections",
+        "privacy": "Operational monitoring of all activities",
+        "amenities": "Utilitarian facilities focused on mission support"
+      }
+    },
+    "deepStorage": {
+      "officialDesignation": "Resource Repository and Special Collections",
+      "description": "Vast underground chambers carved into Io's crust",
+      "securityLevel": "Variable - highest for artifact storage sections",
+      "population": "25 permanent staff plus variable specialists",
+      "keyLocations": [
+        {
+          "name": "Mineral Storage",
+          "function": "Primary holding facility for extracted resources",
+          "restricted": "Authorized resource management personnel",
+          "significance": "Contains the station's economic output",
+          "secrets": "Several chambers repurposed for unauthorized research"
+        },
+        {
+          "name": "Artifact Containment",
+          "function": "Secure storage for recovered xenotech",
+          "restricted": "Highest security clearance only",
+          "significance": "Houses most dangerous and valuable discoveries",
+          "secrets": "Energy emissions from this area affect nearby systems"
+        },
+        {
+          "name": "Emergency Supplies",
+          "function": "Long-term storage of critical resources",
+          "restricted": "Logistics officers with emergency authorization",
+          "significance": "Survival cache for station-wide emergencies",
+          "secrets": "Inventory reports consistently falsified to hide shortages"
+        },
+        {
+          "name": "Excavation Access",
+          "function": "Entry points to deeper archaeological sites",
+          "restricted": "Special research teams with director approval",
+          "significance": "Direct access to ruins beneath the station",
+          "secrets": "Several teams have disappeared in the lower chambers"
+        }
+      ],
+      "environmentalFactors": {
+        "gravity": "Io natural (0.183G)",
+        "atmosphere": "Heavily filtered, specialized containment protocols",
+        "privacy": "Comprehensive monitoring with multiple security measures",
+        "amenities": "Minimal - designed for function not comfort"
+      }
+    },
+    "ioOrbitalPlatform": {
+      "officialDesignation": "Io Orbital Platform (IOP)",
+      "description": "Wheel-shaped station in geosynchronous orbit above the surface outpost",
+      "securityLevel": "High - separate security protocols from surface facility",
+      "population": "Approximately 1,000 personnel",
+      "keyLocations": [
+        {
+          "name": "Docking Ring",
+          "function": "Accommodates interplanetary vessels and shuttles",
+          "restricted": "Authorized dock workers and arriving/departing personnel",
+          "significance": "Primary connection to off-world transport",
+          "secrets": "Private docking bay for Director's use only"
+        },
+        {
+          "name": "Observatory",
+          "function": "Monitors Io's surface and Jupiter system",
+          "restricted": "Scientific staff with appropriate clearance",
+          "significance": "Advanced telescopes and sensor arrays",
+          "secrets": "Tracking anomalous energy signatures throughout Jovian system"
+        },
+        {
+          "name": "Microgravity Labs",
+          "function": "Research requiring zero-G conditions",
+          "restricted": "Specialized research personnel",
+          "significance": "Experiments impossible on the surface",
+          "secrets": "Testing artifact behavior in variable gravity conditions"
+        },
+        {
+          "name": "Comms Array",
+          "function": "Long-range communications with Earth and solar system",
+          "restricted": "Communications specialists only",
+          "significance": "Primary external communication hub",
+          "secrets": "Increasing signal degradation from Great Attractor influence"
+        },
+        {
+          "name": "Defense Systems",
+          "function": "Protection against micrometeorites and other threats",
+          "restricted": "Security personnel with specialized training",
+          "significance": "Station's only active defensive capabilities",
+          "secrets": "Weapons capabilities beyond officially acknowledged specifications"
+        }
+      ],
+      "environmentalFactors": {
+        "gravity": "Artificial gravity in habitation ring, zero-G in central hub",
+        "atmosphere": "Highly regulated life support systems",
+        "privacy": "Standard monitoring protocols with security override",
+        "amenities": "Superior to surface facility due to controlled environment"
+      }
+    }
+  },
+  "surfaceLocations": {
+    "primaryLandingField": {
+      "officialDesignation": "Arrival Zone Alpha",
+      "description": "Reinforced plateau with landing pads and vehicle storage",
+      "distance": "0km (adjacent to main station entrance)",
+      "hazardLevel": "Moderate - protected from minor volcanic activity",
+      "facilities": ["Cargo processing", "Vehicle maintenance", "Emergency shelters"],
+      "significance": "Primary connection to orbital transport",
+      "uniqueFeatures": "Radiation shielding grid embedded in surface"
+    },
+    "mainMiningComplex": {
+      "officialDesignation": "Extraction Facility Gamma",
+      "description": "Massive industrial operation with multiple drilling sites",
+      "distance": "12km from main station",
+      "hazardLevel": "High - active geological area",
+      "facilities": ["Ore processing", "Equipment storage", "Worker rest facility"],
+      "significance": "Primary resource generation for station economy",
+      "uniqueFeatures": "Built to partially collapse and rebuild after major seismic events"
+    },
+    "yellowFlats": {
+      "officialDesignation": "Sulfur Plain Beta",
+      "description": "Vast expanse of solidified sulfur deposits",
+      "distance": "7-30km from main station (expanding area)",
+      "hazardLevel": "Varies with volcanic activity",
+      "facilities": ["Monitoring stations", "Emergency supply caches"],
+      "significance": "Most stable terrain for long-distance surface travel",
+      "uniqueFeatures": "Used for unofficial races and competitions among surface crews"
+    },
+    "theCaldera": {
+      "officialDesignation": "Volcanic Formation KDV-23",
+      "description": "Massive volcanic crater with active lava lake",
+      "distance": "42km from main station",
+      "hazardLevel": "Extreme - immediate death without specialized protection",
+      "facilities": ["Remote monitoring only"],
+      "significance": "Major source of geological data and early warning for activity",
+      "uniqueFeatures": "Eruptions create distinctive sulfur lightning visible station-wide"
+    },
+    "darksideOutpost": {
+      "officialDesignation": "Research Station Epsilon",
+      "description": "Small facility on Jupiter-facing side of Io",
+      "distance": "180km from main station",
+      "hazardLevel": "Extreme - highest radiation exposure on moon",
+      "facilities": ["Automated research equipment", "Emergency shelter"],
+      "significance": "Collects data during peak radiation periods",
+      "uniqueFeatures": "Only fully automated surface facility, requires drone maintenance"
+    },
+    "theNeedles": {
+      "officialDesignation": "Unofficial/No designation",
+      "description": "Forest of sulfur spires created by unusual volcanic processes",
+      "distance": "87km from main station",
+      "hazardLevel": "High - unstable formations and unpredictable gas vents",
+      "facilities": ["None official", "Rat hideouts and supply caches"],
+      "significance": "Navigation landmark and unofficial meeting point",
+      "uniqueFeatures": "Natural formations create electromagnetic interference with tracking systems"
+    }
+  },
+  "anomalousLocations": {
+    "jupiterShadow": {
+      "officialDesignation": "Observation Point Omega",
+      "description": "Location where Jupiter eclipses the sun, creating rare darkness on Io",
+      "occurrence": "17.9 minutes during specific points in orbit",
+      "significance": "Only time certain sensitive instruments can operate",
+      "anomalies": ["Unusual radiation patterns", "Reports of visual hallucinations"],
+      "greatAttractorEffect": "Shadow period extending by approximately 4 seconds per orbit"
+    },
+    "shimmerfault": {
+      "officialDesignation": "Geological Anomaly HR-819",
+      "description": "Fissure in surface with visible spacetime distortion effects",
+      "location": "23km northeast of main station, expanding",
+      "significance": "First physical manifestation of Great Attractor influence",
+      "anomalies": ["Objects appear on both sides simultaneously", "Time dilation measurable with standard equipment"],
+      "greatAttractorEffect": "Focal point for increasing gravitational anomalies"
+    },
+    "echoBasin": {
+      "officialDesignation": "Acoustic Phenomenon LC-2",
+      "description": "Depression where sounds repeat with increasing intensity",
+      "location": "56km from main station in mountainous region",
+      "significance": "Used by surface teams for emergency communication",
+      "anomalies": ["Echoes sometimes precede original sounds", "Recordings capture voices not present"],
+      "greatAttractorEffect": "Echoes now contain infrasonic components causing psychological effects"
+    },
+    "pillarOfIo": {
+      "officialDesignation": "None - undocumented officially",
+      "description": "Perfectly vertical sulfur formation, impossibly balanced",
+      "location": "104km from main station, only accessible during quiet seismic periods",
+      "significance": "Subject of spiritual reverence among Rats",
+      "anomalies": ["Unaffected by seismic activity", "Appears slightly different to each observer"],
+      "greatAttractorEffect": "Growing approximately 1mm per day since manifestation"
+    }
+  }
+}
