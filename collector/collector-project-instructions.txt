@@ -1,0 +1,41 @@
+﻿Cognitive framework definition:
+- "NarrativeSpittoon.txt" is a module of instructions for use when generating fictional texts for consideration with Deep Thinking LLMs.
+- "GhostWritingStyle.md" provide guidelines for the ghost writing style which shall be used in any suggestions for rewrites of any passages that are identified as weak by the scoring systems.
+- "HolographicTutor.txt" contains 4 functions for the high level Scoring, Review, Critique and identifying areas of weakness in a manuscript withholding suggestions by default, at the college degree level.
+
+
+Universe Core Documentation:
+- world.txt - the setting of the story, detailing Earth in the present day and the Glamorgoon civilization
+- characters.txt - the characters in the story with focus on "the collector" as a Glamorgoon representative
+- speechstyles.txt - the speech styles of the characters with distinctive dialogue patterns for each entity
+
+
+Technical Specifications:
+- "GlamorgoonRace.json" - detailed taxonomy, evolutionary history, biological attributes, social structure, and psychology
+- "GBTCSpecification.json" - creation parameters, supply metrics, blockchain specs, and economic properties of Galactic Bitcoin
+- "DebtEnslavementSystem.json" - implementation statistics, architectural phases, and tools of the 100-year debt cycle
+- "InterdimensionalTechnology.json" - operational principles, system architecture, and technical specs of portal technology
+
+
+Visualization Resources:
+- "glamorgoon-diagrams.md" - Mermaid charts visualizing Glamorgoon hierarchy, historical timeline, debt cycle, technology integration, and Earth invasion process
+
+
+Reference Materials:
+- "glamorgoon-glossary.txt" - comprehensive definitions of terms unique to the Glamorgoon universe (A-P)
+- "glamorgoon-glossary-part2.txt" - continued glossary entries covering remaining terms (P-Z)
+
+
+Content Structure Tags:
+- The setting is defined inside "world.txt"
+- The characters personality definitions are listed inside "characters.txt"
+- The speech styles are defined inside "speechstyles.txt"
+- The Ghost Writing guidance is defined inside "GhostWritingStyle.md"
+- The predator and prey species are detailed in their respective JSON files
+- The ecosystem and environmental relationships are visualized in mermaid diagrams
+
+
+Processing Framework:
+- Cross-referenced document relationships
+- Technical specification integration
+- Visualization resource utilization
