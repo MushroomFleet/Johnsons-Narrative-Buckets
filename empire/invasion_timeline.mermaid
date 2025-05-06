@@ -1,0 +1,63 @@
+gantt
+    title Imperial Invasion Operation Timeline (Squad Perspective)
+    dateFormat X
+    axisFormat %d
+    
+    section Preparation Phase
+    Dimensional Transit Planning          :p1, 0, 3d
+    Equipment Preparation & Calibration   :p2, after p1, 2d
+    Mission Briefing & Tactical Analysis  :p3, after p2, 2d
+    Navigator Calculation Sequences       :p4, 0, 6d
+    Final Squad Orientation              :milestone, after p3, 0d
+    
+    section Dimensional Transit
+    Reality Lathe Activation              :t1, after p4, 1d
+    Boundary Stress Application           :t2, after t1, 1d
+    Dimensional Rupture                   :milestone, after t2, 0d
+    Transit Through Dimensional Rift      :t3, after t2, 1d
+    System Stabilization                  :t4, after t3, 1d
+    Dimensional Descent                   :t5, after t4, 2d
+    Initial Deployment                    :milestone, after t5, 0d
+    
+    section Initial Operations
+    Colonel: Command Establishment        :c1, after t5, 3d
+    Sergeant: Reconnaissance Operations   :s1, after t5, 5d
+    Lieutenant: Strategic Analysis        :l1, after t5, 3d
+    Private: Equipment Operation          :p5, after t5, 5d
+    
+    section Squad Drama Points
+    Equipment Malfunction                 :crit, d1, after t5, 1d
+    Indigenous Contact                    :crit, d2, after d1, 1d
+    Lieutenant's Theory Tested            :crit, d3, after d2, 2d
+    Sergeant's Adaptability Challenge     :crit, d4, after d3, 2d
+    Colonel's Command Decision            :crit, milestone, after d4, 0d
+    Private's First Combat                :crit, d5, after d4, 2d
+    
+    section Tactical Operations
+    Secure Primary Objective              :o1, after d4, 3d
+    Indigenous Resistance Encounter       :o2, after o1, 2d
+    Critical Battle                       :crit, o3, after o2, 3d
+    Tactical Adaptation Required          :o4, after o3, 2d
+    Secondary Objectives                  :o5, after o4, 5d
+    
+    section Character Development
+    Colonel: Doctrine vs. Reality         :c2, after o3, 7d
+    Sergeant: Protective Instinct         :s2, after o3, 5d
+    Lieutenant: Theory Failure Processing :l2, after o3, 4d
+    Private: Combat Learning Acceleration :p6, after o3, 6d
+    
+    section Mission Conclusion
+    Resource Evaluation Complete          :e1, after o5, 2d
+    Resistance Neutralization Verified    :e2, after e1, 2d
+    Imperial Control Established          :milestone, after e2, 0d
+    
+    section Reporting & Evaluation
+    Mission Data Compilation              :r1, after e2, 3d
+    Performance Evaluation                :r2, after r1, 2d
+    Next Mission Assignment               :milestone, after r2, 0d
+    
+    section Critical Relationship Events
+    Colonel-Lieutenant Mentorship Tension :crit, rel1, after d3, 8d
+    Sergeant-Private Protective Dynamic   :crit, rel2, after d5, 7d
+    Lieutenant-Private Authority Conflict :crit, rel3, after l2, 4d
+    Colonel-Sergeant Tactical Alignment   :crit, rel4, after o4, 6d

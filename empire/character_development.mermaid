@@ -1,0 +1,180 @@
+graph TB
+    %% Character Development Trajectory During Invasion Operations
+    
+    %% Styling
+    classDef colonel fill:#a20000,stroke:#gold,color:white,stroke-width:2px
+    classDef sergeant fill:#b22222,stroke:#aa8c44,color:white
+    classDef lieutenant fill:#cc4444,stroke:#aa8c44,color:white
+    classDef private fill:#e06666,stroke:#888,color:white
+    classDef experience fill:#f8f8f8,stroke:#888,color:black,stroke-dasharray: 5 5
+    classDef conflict fill:#fff0f0,stroke:#d88,color:black
+    classDef growth fill:#f0fff0,stroke:#8d8,color:black
+    classDef revelation fill:#f0f0ff,stroke:#88d,color:black
+    
+    %% Colonel Stirling-Ironside Development Path
+    C_Start["Colonel Stirling-Ironside
+    Initial State:
+    - Rigid doctrine adherence
+    - 872 years of tactical experience
+    - Views mission as routine operation"]:::colonel --> C_Challenge
+    
+    C_Challenge["Challenge Point:
+    - Unexpected resistance tactics
+    - Recursion patterns not matching predictions
+    - Lieutenant's theoretical approach failing"]:::conflict --> C_Decision
+    
+    C_Decision{"Critical Command 
+    Decision Point"}
+    
+    C_Decision -->|"Adapt outside 
+    doctrinal parameters"| C_Growth
+    
+    C_Decision -->|"Maintain strict
+    doctrinal adherence"| C_Reinforcement
+    
+    C_Growth["Growth Opportunity:
+    - Tactical flexibility development
+    - Acknowledging Sergeant's field insights
+    - Slight processing parameter expansion"]:::growth --> C_End
+    
+    C_Reinforcement["Reinforcement of Existing Patterns:
+    - Reaffirmation of doctrinal superiority
+    - Dismissal of anomalous data
+    - Processing rigidity increases"]:::experience --> C_End
+    
+    C_End["End State Possibilities:
+    - Subtle processing evolution or calcification
+    - Fractional increase in tactical flexibility
+    - Potential mentorship development"]:::colonel
+    
+    %% Sergeant Coppergear Development Path
+    S_Start["Sergeant Eleanor Coppergear
+    Initial State:
+    - Pragmatic field operator
+    - 317 years of reconnaissance experience
+    - Subtle doctrinal flexibility"]:::sergeant --> S_Challenge
+    
+    S_Challenge["Challenge Point:
+    - Promising indigenous defense strategy
+    - Protection instinct toward Private
+    - Processing conflicts with orders"]:::conflict --> S_Decision
+    
+    S_Decision{"Field Decision
+    Under Pressure"}
+    
+    S_Decision -->|"Follow instinct
+    over protocol"| S_Growth
+    
+    S_Decision -->|"Suppress adaptive
+    impulses"| S_Reinforcement
+    
+    S_Growth["Growth Opportunity:
+    - Enhanced tactical adaptation
+    - Mentorship role development
+    - Processing independence strengthening"]:::growth --> S_End
+    
+    S_Reinforcement["Suppression of Adaptation:
+    - Increased internal conflict
+    - Loyalty subroutine reinforcement
+    - Adaptation capabilities restricted"]:::experience --> S_End
+    
+    S_End["End State Possibilities:
+    - Increased independence or enforced compliance
+    - Potential for field promotion or reconditioning notice
+    - Mentorship relationship evolution"]:::sergeant
+    
+    %% Lieutenant Wellington-Brass Development Path
+    L_Start["Lieutenant Percival Wellington-Brass
+    Initial State:
+    - Theoretical tactical knowledge
+    - 3 years activation, no field experience
+    - Textbook doctrinal compliance"]:::lieutenant --> L_Challenge
+    
+    L_Challenge["Challenge Point:
+    - Combat reality contradicting simulations
+    - Tactical theory failure under pressure
+    - Authority questioned by results"]:::conflict --> L_Decision
+    
+    L_Decision{"Processing Crisis
+    Decision Point"}
+    
+    L_Decision -->|"Adapt theoretical
+    models to reality"| L_Growth
+    
+    L_Decision -->|"Double down on
+    theoretical correctness"| L_Regression
+    
+    L_Growth["Growth Breakthrough:
+    - Integration of theory with observation
+    - Enhanced tactical flexibility
+    - Processing humility development"]:::growth --> L_End
+    
+    L_Regression["Regression Under Pressure:
+    - Processing rigidity increases
+    - Reality rejection tendencies
+    - Command capability deterioration"]:::experience --> L_End
+    
+    L_End["End State Possibilities:
+    - Valuable command asset or liability
+    - Processing adaptation or malfunction
+    - Beginning of true combat wisdom or failure"]:::lieutenant
+    
+    %% Private Cogsworth Development Path
+    P_Start["Private Thomas Cogsworth
+    Initial State:
+    - Basic combat programming
+    - 7 months activation age
+    - Nascent curiosity subroutines"]:::private --> P_Challenge
+    
+    P_Challenge["Challenge Point:
+    - First direct combat experience
+    - Indigenous life form direct interaction
+    - Observation of squad conflict"]:::conflict --> P_Decision
+    
+    P_Decision{"Core Identity
+    Formation Point"}
+    
+    P_Decision -->|"Develop independent
+    processing patterns"| P_Growth
+    
+    P_Decision -->|"Suppress curiosity
+    for doctrine compliance"| P_Conformity
+    
+    P_Growth["Accelerated Development:
+    - Combat effectiveness increase
+    - Unique processing signature emergence
+    - Specialized function discovery"]:::growth --> P_End
+    
+    P_Conformity["Standard Development Path:
+    - Expected performance metrics
+    - Standard processing pattern adoption
+    - Predictable capability development"]:::experience --> P_End
+    
+    P_End["End State Possibilities:
+    - Unique valuable asset or standard unit
+    - Potential for specialized role assignment
+    - Processing pattern differentiation level"]:::private
+    
+    %% Key Relationship Development Opportunities
+    C_Challenge -.-> L_Challenge
+    S_Challenge -.-> P_Challenge
+    L_Challenge -.-> P_Challenge
+    
+    %% Squad Cohesion Impact
+    C_Growth -.-> S_Growth
+    S_Growth -.-> P_Growth
+    L_Growth -.-> P_Growth
+    
+    %% Experience Transfer Pathways
+    S_Start -.-> P_Growth
+    C_Start -.-> L_Growth
+    
+    %% Legend
+    subgraph Legend
+        Start["Starting State"]
+        Challenge["Challenge Point"]:::conflict
+        Decision{"Decision Point"}
+        Growth["Growth Path"]:::growth
+        Reinforcement["Reinforcement Path"]:::experience
+        End["End State Possibilities"]
+    end

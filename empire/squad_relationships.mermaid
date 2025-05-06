@@ -1,0 +1,99 @@
+graph TD
+    %% Squad Relationship Diagram for EMPIRE Squad
+    %% Node definitions with styling
+    Colonel["Colonel Reginald Stirling-Ironside
+    872 years old
+    Conquest Specialist
+    Rigid & methodical"]
+    style Colonel fill:#a20000,stroke:#gold,color:white,stroke-width:3px
+
+    Sergeant["Sergeant Eleanor Coppergear
+    317 years old
+    Scout-Infantry Hybrid
+    Pragmatic & adaptable"]
+    style Sergeant fill:#b22222,stroke:#aa8c44,color:white
+
+    Lieutenant["Lieutenant Percival Wellington-Brass
+    3 years old
+    Command-Track Unit
+    Enthusiastic & by-the-book"]
+    style Lieutenant fill:#cc4444,stroke:#aa8c44,color:white
+
+    Private["Private Thomas Cogsworth
+    7 months old
+    Standard Infantry Unit
+    Curious & developing"]
+    style Private fill:#e06666,stroke:#888,color:white
+
+    %% Relationships and command structure
+    Colonel -- "Direct command line
+    Expects absolute compliance
+    Occasionally values initiative" --> Sergeant
+    Colonel -- "Direct command line
+    Mentorship responsibility
+    Often exasperated by theoretical approach" --> Lieutenant
+    Colonel -- "Indirect command
+    Minimal direct interaction
+    Occasional observation for field reports" --> Private
+
+    Sergeant -- "Tactical direction
+    Protection in field
+    Veiled impatience" --> Lieutenant
+    Sergeant -- "Direct field supervision
+    Practical training
+    Guarded appreciation of curiosity" --> Private
+
+    Lieutenant -- "Direct command
+    Excessive explanations
+    Unearned authority" --> Private
+
+    %% Hidden relationships and tensions
+    Colonel -. "Respects field experience
+    Values tactical adaptability
+    Never openly acknowledges" .-> Sergeant
+    
+    Sergeant -. "Protective but never admits it
+    Sees potential beyond regulations
+    Occasional mentorship" .-> Private
+    
+    Lieutenant -. "Secretly envious of experience
+    Studies her field adaptations
+    Would never admit admiration" .-> Sergeant
+    
+    Private -. "Silent admiration
+    Emulation attempts
+    Processing pattern analysis" .-> Sergeant
+    
+    Private -. "Programming confusion
+    Loyalty conflicts with curiosity
+    Subtle resistance to rigidity" .-> Lieutenant
+
+    %% Special relationships - conflicts and synergies
+    Sergeant <--> |"Battlefield synchronicity
+    Silent communication
+    Mutual respect
+    Complementary tactical approaches"| Colonel
+    
+    Lieutenant <--> |"Command friction
+    Theoretical vs. practical
+    Competition for Colonel's approval
+    Opposite processing approaches"| Sergeant
+    
+    Private <--> |"Processing conflicts
+    Theoretical knowledge vs. curiosity
+    Confused loyalty patterns
+    Potential for unexpected development"| Lieutenant
+    
+    %% Legend
+    classDef legend fill:none,stroke:none,color:black
+    
+    Legend["LEGEND"]:::legend
+    CommandLine["— Direct command structure"]:::legend
+    HiddenDynamics["-· Hidden dynamics & tensions"]:::legend
+    BidirectionalRelations["↔ Complex interpersonal relationship"]:::legend
+    
+    %% Styling hierarchy by age/experience
+    style Colonel font-size:18px
+    style Sergeant font-size:16px
+    style Lieutenant font-size:14px
+    style Private font-size:14px

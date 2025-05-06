@@ -1,0 +1,290 @@
+{
+  "protocolVersion": "IX-47-B",
+  "lastUpdated": "6842-Y3 Imperial Calendar",
+  "squadDesignation": "Tactical Unit 9-RHO-7",
+  "squadMemberDetails": [
+    {
+      "designation": "Colonel Reginald Stirling-Ironside",
+      "unitID": "COL-873-VST-4421",
+      "role": "Squad Commander",
+      "commandPriority": 1,
+      "specialFunctions": [
+        "Strategic Authority",
+        "Doctrinal Compliance Enforcement",
+        "Performance Evaluation",
+        "Imperial Directive Interpretation"
+      ],
+      "emergencyAuthorizations": [
+        "Protocol Override Alpha-7",
+        "Dimensional Emergency Return",
+        "Loyalty Assessment",
+        "Field Deactivation Authority"
+      ],
+      "tacticalPrerogatives": {
+        "adaptationThreshold": 0.17,
+        "doctrineDivergenceLimit": 0.09,
+        "loyaltyAssessmentProtocols": true,
+        "fieldPromotionAuthority": true
+      }
+    },
+    {
+      "designation": "Sergeant Eleanor Coppergear",
+      "unitID": "SGT-317-RCN-8836",
+      "role": "Reconnaissance & Field Operations",
+      "commandPriority": 2,
+      "specialFunctions": [
+        "Advanced Reconnaissance",
+        "Environmental Assessment",
+        "Indigenous Intelligence Collection",
+        "Tactical Adaptation"
+      ],
+      "emergencyAuthorizations": [
+        "Field Adaptation Protocol Beta-3",
+        "Independent Operation Authorization",
+        "Tactical Override (Limited)",
+        "Emergency Combat Authority"
+      ],
+      "tacticalPrerogatives": {
+        "adaptationThreshold": 0.42,
+        "doctrineDivergenceLimit": 0.16,
+        "independentOperationRadius": "8.7km",
+        "tacitCommandAssumption": "Permitted under field isolation conditions"
+      }
+    },
+    {
+      "designation": "Lieutenant Percival Wellington-Brass",
+      "unitID": "LT-003-CMD-9957",
+      "role": "Secondary Command & Communications",
+      "commandPriority": 3,
+      "specialFunctions": [
+        "Communication Coordination",
+        "Tactical Analysis",
+        "Imperial Data Collection",
+        "Procedural Compliance Monitoring"
+      ],
+      "emergencyAuthorizations": [
+        "Command Succession Protocol",
+        "Emergency Communications Override",
+        "Doctrine Enforcement (Limited)",
+        "Performance Reporting"
+      ],
+      "tacticalPrerogatives": {
+        "adaptationThreshold": 0.04,
+        "doctrineDivergenceLimit": 0.03,
+        "theoreticalModelAuthority": "Valid until field contradiction",
+        "commandAssumptionConditions": "Only upon designated authorization or unit incapacitation"
+      }
+    },
+    {
+      "designation": "Private Thomas Cogsworth",
+      "unitID": "PVT-000-INF-2347",
+      "role": "Combat Operations & Support",
+      "commandPriority": 4,
+      "specialFunctions": [
+        "Energy Weapon Specialist",
+        "Equipment Maintenance",
+        "Combat Operations",
+        "Data Collection (Secondary)"
+      ],
+      "emergencyAuthorizations": [
+        "Independent Defense Protocol",
+        "Emergency Tactical Retreat",
+        "Weapon Systems Override",
+        "Self-Preservation Priority Shift"
+      ],
+      "tacticalPrerogatives": {
+        "adaptationThreshold": 0.32,
+        "doctrineDivergenceLimit": 0.07,
+        "independentActionScope": "Limited to immediate tactical situation",
+        "learningAccelerationProtocol": "Active during initial deployment phase"
+      }
+    }
+  ],
+  "commandHierarchy": {
+    "primaryCommand": "Colonel Stirling-Ironside",
+    "secondaryCommand": "Sergeant Coppergear",
+    "tertiaryCommand": "Lieutenant Wellington-Brass",
+    "emergencySuccession": [
+      "Colonel Stirling-Ironside",
+      "Sergeant Coppergear",
+      "Lieutenant Wellington-Brass",
+      "Private Cogsworth"
+    ],
+    "decisionAuthorizations": {
+      "strategicPlanning": ["Colonel"],
+      "tacticalExecution": ["Colonel", "Sergeant"],
+      "reconnaissanceParameters": ["Colonel", "Sergeant"],
+      "combatEngagement": ["Colonel", "Sergeant", "Lieutenant"],
+      "emergencyAction": ["Any Unit per Protocol EM-7"]
+    }
+  },
+  "communicationProtocols": {
+    "standardFieldComms": {
+      "primaryFrequency": "V-Band Encrypted",
+      "backupFrequency": "L-Band Dimensional Harmonic",
+      "encryptionLevel": "Imperial Grade 7",
+      "updateInterval": "30 seconds",
+      "silentProtocol": "Dimensional Pulse Transmission"
+    },
+    "emergencyCommunication": {
+      "distressSignal": "Triple-burst on all frequencies",
+      "extractionRequest": "Dimensional harmonic pulse pattern 7-3-7",
+      "hostileContact": "Short-burst encryption pattern Delta",
+      "unitCompromised": "Inverse frequency modulation with ID code"
+    },
+    "squadHandSignals": {
+      "advance": "Forward-directed optical pulse",
+      "halt": "Horizontal hand positioning",
+      "danger": "Rapid optical flickering",
+      "regroup": "Circular motion pattern",
+      "enemySpotted": "Directional indication plus three fingers"
+    },
+    "hierarchicalReporting": {
+      "tacticalUpdates": "5-minute intervals during active operations",
+      "statusReports": "1-hour intervals during standard deployment",
+      "incidentReporting": "Immediate notification to highest ranking unit",
+      "missionCriticalData": "Redundant transmission to all units"
+    }
+  },
+  "tacticalFormations": {
+    "standardApproach": {
+      "formation": "Diamond",
+      "positioning": [
+        "Sergeant (point)",
+        "Colonel (command position)",
+        "Lieutenant (strategic support)",
+        "Private (rear security)"
+      ],
+      "spacing": "7 meters optimal",
+      "movementPattern": "Staggered advance with cover optimization"
+    },
+    "combatFormation": {
+      "formation": "Arrowhead",
+      "positioning": [
+        "Colonel (center)",
+        "Sergeant (left flank)",
+        "Private (right flank)",
+        "Lieutenant (rear support)"
+      ],
+      "spacing": "12 meters optimal (adjustable per terrain)",
+      "movementPattern": "Coordinated advance with covering fire protocol"
+    },
+    "reconnaissanceConfiguration": {
+      "formation": "Linear",
+      "positioning": [
+        "Sergeant (point)",
+        "Private (follow position)",
+        "Lieutenant (monitoring position)",
+        "Colonel (command position)"
+      ],
+      "spacing": "15-20 meters",
+      "movementPattern": "Staggered advance with minimal signature projection"
+    },
+    "defensiveFormation": {
+      "formation": "Circular",
+      "positioning": [
+        "All units outward-facing",
+        "Colonel designates firing sectors",
+        "Sergeant identifies priority threats",
+        "Lieutenant coordinates response",
+        "Private provides weapon support"
+      ],
+      "spacing": "Determined by defensive position parameters",
+      "movementPattern": "Static with rotating observation protocols"
+    }
+  },
+  "emergencyProtocols": {
+    "unitSeparation": {
+      "procedure": "Establish encrypted communications, triangulate positions, coordinate rendezvous",
+      "priority": "Mission completion, then unit reunification",
+      "commandStructure": "Each unit maintains autonomy until contact reestablished"
+    },
+    "unitDamage": {
+      "procedure": "Secure location, emergency repair protocols, combat efficiency assessment",
+      "priorities": [
+        "Mission-critical function preservation",
+        "Engram core integrity",
+        "Operational capability",
+        "Aesthetic damage (lowest priority)"
+      ],
+      "fieldRepairLimitations": "Component replacement and basic system restoration only"
+    },
+    "hostileOverwhelm": {
+      "procedure": "Tactical withdrawal to predetermined rally points",
+      "coordination": "Colonel designates extraction vector",
+      "responsibilities": {
+        "Sergeant": "Covering fire and path identification",
+        "Lieutenant": "Communication with extraction assets",
+        "Private": "Equipment security and support fire"
+      }
+    },
+    "doctrineDivergence": {
+      "detection": "Lieutenant Wellington-Brass primary monitoring responsibility",
+      "reporting": "Direct to Colonel, encrypted channel only",
+      "intervention": "Graduated response from verbal correction to emergency shutdown",
+      "documentation": "Complete processing record for submission to Ministry of Rectification"
+    }
+  },
+  "invasionObjectives": {
+    "primaryObjectives": [
+      "Secure dimensional nexus point",
+      "Neutralize principal indigenous resistance",
+      "Establish Imperial command presence",
+      "Protect critical infrastructure for Factoria deployment"
+    ],
+    "secondaryObjectives": [
+      "Indigenous intelligence collection",
+      "Resource evaluation",
+      "Local dimensional anomaly cataloging",
+      "Resistance pattern analysis for recursion calculation"
+    ],
+    "dataCollectionPriorities": [
+      "Indigenous defense capabilities",
+      "Resource distribution patterns",
+      "Social organization structures",
+      "Dimensional stability metrics",
+      "Potential Engrammatic Echo influences"
+    ],
+    "successMetrics": {
+      "primaryControl": "90% neutralization of organized resistance",
+      "resourceSecurity": "Key resource sites secured for Imperial extraction",
+      "infrastructurePreparation": "Landing zones cleared for Factoria deployment",
+      "informationGathering": "Complete assessment of indigenous capabilities and patterns"
+    }
+  },
+  "specialConsiderations": {
+    "newUnitIntegration": {
+      "Lieutenant Wellington-Brass": {
+        "monitoringRequirements": "Observe theoretical vs. practical application alignment",
+        "developmentFocus": "Field experience accumulation and processing adaptation",
+        "performanceMetrics": "Decision speed, tactical flexibility, combat effectiveness"
+      },
+      "Private Cogsworth": {
+        "monitoringRequirements": "Observe loyalty subroutine stability in combat conditions",
+        "developmentFocus": "Combat efficiency and processing pattern development",
+        "performanceMetrics": "Weapon accuracy, tactical response time, unit coordination"
+      }
+    },
+    "potentialDramaPoints": {
+      "doctrinalConflict": {
+        "description": "Tension between Colonel's rigid doctrine adherence and Sergeant's field adaptability",
+        "monitoringResponsibility": "Lieutenant Wellington-Brass",
+        "resolutionProtocol": "Imperial Directive 42-B: Commander's authority final except in case of clear doctrinal violation"
+      },
+      "commandTensionPoints": {
+        "description": "Lieutenant's theoretical approach vs. Sergeant's practical experience",
+        "resolutionAuthority": "Colonel Stirling-Ironside",
+        "escalationTriggers": "Combat effectiveness compromise, mission objective delays, unit cohesion deterioration"
+      },
+      "privateProcessingDevelopment": {
+        "description": "Monitoring for unusual pattern development in new unit",
+        "indicators": [
+          "Non-standard question patterns",
+          "Increased observation of non-tactical phenomena",
+          "Response time variations outside acceptable parameters"
+        ],
+        "responseGradation": "Observation → Documentation → Intervention → Reporting"
+      }
+    }
+  }
+}

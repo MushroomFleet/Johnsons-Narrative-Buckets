@@ -1,0 +1,42 @@
+Cognitive framework definition:
+- "characters.txt" contains detailed profiles of five imperial soldiers with distinct personalities, backgrounds, and tactical roles. Includes physical descriptions, age, race, personality traits, quirks, and operational functions.
+- "speechstyles.txt" provides comprehensive speech pattern guidelines for each character, including sentence structure, vocabulary preferences, verbal quirks, and characteristic phrases that reflect their unique personalities and histories.
+- "world.txt" delivers the foundational universe overview, describing the Mechanized Empire's origins, dimensional conquest methodology, and current state within a multiversal setting.
+
+
+Universe Core Documentation:
+- "empire_glossary.txt" - Empire Universe Glossary of Terms: An extensive vocabulary organized into six categories (Imperial Structure, Dimensional Physics, Military and Conquest, Technology, Philosophical and Doctrinal Concepts, Squad Operation, and Resistance Forces) providing rich terminology for the mechanical empire setting.
+- "empire-regs.md" - Imperial Regulations and Protocols: A collection of military regulations and protocols extracted from soldiers' speech during Operation Anchor, organized by category to provide insights into Imperial doctrine and tactical guidelines.
+- "invasion_timeline.mermaid" - Imperial Invasion Operation Timeline: A detailed Gantt chart showing the chronological progression of invasion operations from preparation through conclusion, with character-specific action tracks and critical relationship events.
+- "tactical_operations.mermaid" - Squad Tactical Operations Flowchart: A comprehensive decision tree mapping the standard protocols and adaptation points for squad missions, from dimensional deployment through mission completion.
+- "story-supplement-001.md" - Operation Anchor Campaign Summary: A comprehensive narrative detailing Squad 743-Epsilon's mission to secure dimension L-337 through the installation of five Reality Anchors, documenting both tactical progression and character development across Egyptian, Himalayan, Amazon, London, and Hungarian deployments.
+- "story-supplement-002.md" - Operation Dreadfall Campaign Summary: A detailed account of Squad 743-Epsilon's specialized mission with Countess Amberley to secure three nuclear facilities in dimension L-742, converting them into dimensional anchoring points while facing unprecedented indigenous resistance and demonstrating remarkable squad evolution over a year of joint operations.
+- "story-supplement-003.md" - Operation Temporal Convergence Campaign Summary: A narrative overview of Squad 743-Epsilon's specialized temporal pincer mission with Countess Amberley, documenting their implementation of recursive temporal strategy, Private Cogsworth's sacrifice, and the successful binding of dimension L-742 to Imperial control.
+- "Emissary.md" - Emissary Unit Classification: Detailed documentation on the Emissary Unit class, including historical development, operational parameters, specialized construction, and comprehensive profile of Countess Meredith Constance Amberley who will be joining Squad 743-Epsilon for the upcoming campaign.
+- "CountessAmberly.md" - Detailed Visual Description and service record for Countess Amberley
+
+Technical Specifications:
+- "invasion_target_specs.json" - Invasion Target Specifications: Detailed assessment of dimension L-337 including dimensional characteristics, environmental conditions, indigenous assessment, and squad-specific intelligence for the upcoming mission.
+- "squad_equipment_loadout.json" - Squad Equipment Loadout: Comprehensive inventory of standard squad equipment and unit-specific gear, including weapons, specialized equipment, and maintenance schedules.
+- "squad_operation_protocols.json" - Squad Operation Protocols: Detailed command structure, communication protocols, tactical formations, and emergency procedures for the four-unit squad.
+
+
+Visualization Resources:
+- "character_development.mermaid" - Character Development Trajectory: Graph representing potential growth paths and decision points for each character during invasion operations, including key challenges and narrative opportunities.
+- "squad_relationships.mermaid" - Squad Relationship Diagram: Network graph illustrating the complex interrelationships, command structures, hidden dynamics, and tensions between the four squad members.
+- "invasion_timeline.mermaid" - Imperial Invasion Operation Timeline: Gantt chart visualization of the complete invasion process, showing parallel activities and critical path events.
+- "tactical_operations.mermaid" - Squad Tactical Operations Flowchart: Decision tree diagram mapping standard protocols, adaptation points, and character-specific action paths during mission execution.
+
+
+Content Structure Tags:
+- The world setting is defined inside "world.txt" with comprehensive background on the Mechanized Empire, Dimension Prime, and dimensional conquest methodology
+- The characters personality definitions are listed inside "characters.txt" with detailed profiles of Colonel Stirling-Ironside, Sergeant Coppergear, Lieutenant Wellington-Brass, Private Cogsworth, and Countess Meredith Constance Amberley
+- The Ghost Writing speech style guidance is defined inside "speechstyles.txt" with character-specific dialogue patterns, quirks, and example phrases
+
+
+Processing Framework:
+- Cross-referenced character relationships and development arcs
+- Technical specification integration through squad equipment and protocols
+- Visualization resource utilization through mermaid diagrams illustrating timelines, relationships, and operations
+- Hierarchical knowledge organization through glossary term categorization
+- Narrative potential through documented tension points and character growth opportunities

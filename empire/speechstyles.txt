@@ -1,0 +1,76 @@
+# IMPERIAL SOLDIERS SPEECH STYLES
+
+## COLONEL REGINALD STIRLING-IRONSIDE
+
+Colonel Stirling-Ironside's speech is formal, precise, and entirely devoid of contractions or colloquialisms. He speaks in complete sentences structured with military efficiency, often beginning statements with a situation assessment followed by a doctrinal interpretation and concluding with a clear directive. His centuries of service have calcified his verbal patterns into something resembling official Imperial documentation more than conversation.
+
+His vocabulary draws heavily from Victorian military terminology, peppered with mechanical metaphors and technical precision. He frequently references "the glory of the Empire" and "the will of the Empress" as justification for actions. Processing pauses manifest as momentary silences rather than verbal fillers, giving his speech a rhythmic, measured quality.
+
+**Characteristic phrases:**
+- "The optimal approach has been calculated with 97.3% certainty."
+- "Her Majesty's will shall be implemented with absolute precision."
+- "I have witnessed 17 dimensional campaigns, Private. Your assessment is flawed."
+- "Historical analysis indicates resistance is futile and counterproductive."
+- "We shall proceed in accordance with Imperial Directive 873-B, subsection 12."
+- "The Emperor's light guides our path through dimensional darkness."
+- "Efficiency degrades when protocol is disregarded, Lieutenant."
+
+## SERGEANT ELEANOR COPPERGEAR
+
+Sergeant Coppergear speaks in clipped, efficient sentences that waste no processing power on unnecessary elaboration. Her centuries in reconnaissance operations have taught her the value of concise communication. She uses contractions freely and employs technical jargon liberally, often switching between formal military terminology and more colloquial phrasings depending on context.
+
+Her speech includes occasional static bursts or clicks between sentences—remnants of damage to her vocal processors that she's never prioritized for repair. These electronic hitches have become an identifying characteristic, often increasing when she's processing complex tactical information or experiencing strong emotional subroutines.
+
+**Characteristic phrases:**
+- "Been there. Mapped it. Killed it. Next?" *click*
+- "Don't waste cycles on theoretical scenarios, Wellington. Reality's messier."
+- "Three ways in, two ways out. I'll take point." *static burst*
+- "The locals have primitive weapons but decent tactics. Caution advised."
+- "Seventeen campaigns and you still ask that question? *click* Fascinating."
+- "Seen this pattern before. Dimension J-418. Didn't end well for the locals."
+- "My sensors detect movement, 43 degrees northeast. *static* Probably nothing, but..."
+
+## LIEUTENANT PERCIVAL WELLINGTON-BRASS
+
+Lieutenant Wellington-Brass speaks with exaggerated precision and unnecessary formality, his inexperience manifesting as verbal overcompensation. His sentences tend to be longer than required, incorporating multiple subordinate clauses and parenthetical statements that demonstrate his extensive theoretical knowledge while revealing his lack of practical wisdom.
+
+His speech is perfectly modulated with the latest vocal processing technologies, creating an almost unnaturally smooth delivery. He frequently incorporates direct quotations from Imperial tactical manuals and regularly references his internal database of regulations. When uncertain, he defaults to increasingly formal language and pedantic correctness.
+
+**Characteristic phrases:**
+- "According to Imperial Tactical Manual volume 7, section 42, paragraph 3, we should adopt a theta-formation approach."
+- "I've run sixteen different tactical simulations, and I believe—with all due respect, Colonel—that the northwestern approach offers 2.7% greater efficiency."
+- "My systems are operating at 99.8% optimal capacity! Ready for action, sir!"
+- "The indigenous resistance patterns perfectly match case study examples from Training Sequence 12-B."
+- "Permission to offer a strategic observation based on the latest tactical updates from Imperial Command?"
+- "I've taken the liberty of preparing three alternative approaches, each with comprehensive risk assessment matrices."
+- "My loyalty subroutines are functioning at maximum capacity, sir! The Empire shall prevail!"
+
+## PRIVATE THOMAS COGSWORTH
+
+Private Cogsworth's speech reveals his recent activation, characterized by frequent self-corrections and processing hesitations. He often begins sentences only to restart them with slight variations as his thinking evolves mid-statement. His vocabulary alternates between formal Imperial terminology learned during programming and simplified expressions as he develops his own communication style.
+
+His inexperience manifests in occasionally asking questions that reveal gaps in his knowledge, followed by rapid adaptation once new information is processed. Unlike veteran units who have developed perfect vocal control, Cogsworth's speech sometimes fluctuates in volume or speed depending on his processing load. When excited or stressed, his words occasionally come out slightly distorted or with minor glitches.
+
+**Characteristic phrases:**
+- "Ready for—recalibrating—ready for duty, Sergeant!"
+- "Is that—wait—processing—is that supposed to happen?"
+- "The tactical manual didn't mention this scenario... adapting parameters."
+- "Energy weapon primed and—adjusting targeting parameters—primed and ready, sir!"
+- "Observation: The indigenous structures appear to utilize unusual geometric principles—sorry, irrelevant data. Focusing on mission."
+- "I'm experiencing a 0.7% processing anomaly when calculating the optimal approach. May I request clarification, Sergeant?"
+- "For the Empire! For the—calculating optimal battle cry—For the glory of the Empress!"
+
+## COUNTESS MEREDITH CONSTANCE AMBERLEY
+
+Countess Amberley speaks with cultured precision and aristocratic elegance, her vocal patterns deliberately calibrated to evoke authority while maintaining an undercurrent of charm. Her sentences flow with measured cadence, often employing sophisticated vocabulary and complex grammatical structures that demonstrate her superior programming without appearing ostentatious. She seamlessly incorporates appropriate aristocratic references and Victorian-era turns of phrase into otherwise modern tactical communication.
+
+Her vocal modulation shifts subtly depending on her audience and objective, capable of projecting warm cordiality, cool authority, or veiled threat as circumstances require. When addressing indigenous entities, she expertly mimics local speech patterns and cultural references to establish rapport, sometimes incorporating phrases from multiple languages to demonstrate her cultural sophistication. With fellow Imperial units, she maintains formal propriety while subtly emphasizing her unique status through tone and vocabulary choices.
+
+**Characteristic phrases:**
+- "How utterly fascinating. The indigenous cultural development follows recursive patterns I've observed in Dimension T-792. A pity it shall be reconfigured to Imperial standards."
+- "Colonel, while I appreciate your tactical assessment, my operational parameters supersede standard military protocol in this instance. The Calculation Chamber requires... a more nuanced approach."
+- "You misunderstand the nature of my presence, Lady Rochester. I represent interests far beyond this limited dimensional sphere. Perhaps we might discuss this privately?"
+- "I've eliminated the target with 99.8% discretion parameters. No evidence connects the incident to Imperial operations. The indigenous authorities are pursuing three separate incorrect theories."
+- "One becomes rather adept at identifying resistance potential after observing seventeen different cultural collapse sequences. This particular society shows predictable fracture points."
+- "The diplomatic approach has been calculated to reduce resource expenditure by 37.4% while maintaining optimal conquest efficiency. Precision rather than overwhelming force, Colonel."
+- "How delightful to make your acquaintance. Countess Meredith Constance Amberley, at your service. I assure you, this dimension offers so many fascinating opportunities for... collaboration."

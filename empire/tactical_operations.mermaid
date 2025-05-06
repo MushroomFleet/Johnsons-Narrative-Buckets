@@ -1,0 +1,183 @@
+flowchart TD
+    %% Squad Tactical Operations Flowchart
+    classDef colonel fill:#a20000,stroke:#gold,color:white,stroke-width:2px
+    classDef sergeant fill:#b22222,stroke:#aa8c44,color:white
+    classDef lieutenant fill:#cc4444,stroke:#aa8c44,color:white
+    classDef private fill:#e06666,stroke:#888,color:white
+    classDef process fill:#ddd,stroke:#888,color:black
+    classDef decision fill:#ffffcc,stroke:#888,color:black
+    classDef danger fill:#ffcccc,stroke:#aa0000,color:black
+    classDef success fill:#ccffcc,stroke:#00aa00,color:black
+
+    %% Initial Deployment Stage
+    Start([Dimensional Vessel Deployment]) --> DimensionalTransit
+    DimensionalTransit["Transition Through Dimensional Rift"] --> Briefing
+    
+    %% Mission Briefing and Planning
+    Briefing["Mission Briefing Received
+    From Regimental Command"]:::process --> PlanningPhase
+    
+    PlanningPhase["Tactical Planning Phase
+    Colonel: Overall Strategy
+    Lieutenant: Theoretical Simulations
+    Sergeant: Practical Assessment
+    Private: Equipment Preparation"]:::process --> ReconDeploy
+    
+    %% Reconnaissance Stage
+    ReconDeploy["Reconnaissance Deployment
+    Led by Sergeant Coppergear"]:::sergeant --> ReconDecision
+    
+    ReconDecision{"Indigenous 
+    Resistance Assessment"}:::decision
+    
+    ReconDecision -->|"Low Resistance
+    Detected"| StandardApproach
+    ReconDecision -->|"Significant Resistance
+    Detected"| CautionApproach
+    ReconDecision -->|"Substantial Threat
+    Detected"| HighAlertApproach
+    
+    %% Approach Options
+    StandardApproach["Standard Approach Protocol
+    Colonel: Forward Command
+    Sergeant: Point Position
+    Lieutenant: Communication Coordination
+    Private: Weapon Systems Ready"]:::process --> SecureOperation
+    
+    CautionApproach["Caution Approach Protocol
+    Sergeant: Advanced Scout
+    Colonel: Tactical Assessment
+    Lieutenant: Support Coordination
+    Private: Defensive Positioning"]:::process --> StealthOperation
+    
+    HighAlertApproach["High Alert Protocol
+    Sergeant: Stealth Reconnaissance
+    Colonel: Strategic Reassessment
+    Lieutenant: Contingency Calculations
+    Private: Enhanced Weapon Readiness"]:::process --> AssessmentPoint
+    
+    %% Operational Phases
+    SecureOperation["Secure Critical Location
+    Standard Formation Delta"]:::process --> EstablishControl
+    
+    StealthOperation["Stealth Approach to Target
+    Formation Epsilon-7"]:::process --> AssessmentPoint
+    
+    AssessmentPoint{"Tactical 
+    Reassessment"}:::decision
+    
+    AssessmentPoint -->|"Proceed with
+    Original Plan"| EstablishControl
+    
+    AssessmentPoint -->|"Resistance 
+    Exceeds Predictions"| TacticalAdaptation
+    
+    AssessmentPoint -->|"Critical 
+    Threat Detected"| EmergencyProtocol
+    
+    %% Adaptation Pathways
+    TacticalAdaptation["Tactical Adaptation Required
+    Colonel: New Strategy Authorization
+    Sergeant: Field Modifications
+    Lieutenant: Processing Conflicts with Change
+    Private: Learning Opportunity"]:::process --> AdaptationDecision
+    
+    AdaptationDecision{"Command
+    Tension Point"}:::decision
+    
+    AdaptationDecision -->|"Colonel Authorizes 
+    Sergeant's Approach"| SergeantLead
+    
+    AdaptationDecision -->|"Lieutenant's Theoretical 
+    Model Selected"| LieutenantLead
+    
+    SergeantLead["Sergeant-Led Adaptation
+    Practical Experience Applied
+    Potential Dramatic Character Moment"]:::sergeant --> EngageResistance
+    
+    LieutenantLead["Lieutenant-Led Operation
+    Theoretical Application
+    Potential Growth or Failure Point"]:::lieutenant --> EngageResistance
+    
+    %% Combat Engagement
+    EngageResistance["Engage Indigenous Resistance
+    Combat Protocols Active"]:::process --> CombatOutcome
+    
+    CombatOutcome{"Combat 
+    Outcome"}:::decision
+    
+    CombatOutcome -->|"Successful 
+    Neutralization"| EstablishControl
+    
+    CombatOutcome -->|"Partial 
+    Success"| ReassessAndAdapt
+    
+    CombatOutcome -->|"Tactical 
+    Failure"| EmergencyProtocol
+    
+    %% Resolution Pathways
+    ReassessAndAdapt["Tactical Reassessment
+    Squad Tension Point
+    Character Development Opportunity"]:::process --> EstablishControl
+    
+    EstablishControl["Establish Imperial Control
+    Primary Objective Secured"]:::success --> SecondaryObjectives
+    
+    EmergencyProtocol["Emergency Protocol Activation
+    Colonel: Override Authority
+    Sergeant: Protection Protocols
+    Lieutenant: Processing Strain
+    Private: Combat Learning Acceleration"]:::danger --> ExtractionProtocol
+    
+    %% Mission Continuation or Extraction
+    SecondaryObjectives["Secondary Objectives
+    Imperial Data Collection
+    Resource Assessment
+    Resistance Cataloging"]:::process --> MissionComplete
+    
+    ExtractionProtocol["Strategic Extraction Protocol
+    Potential Dramatic Failure
+    Character Development Through Loss"]:::danger --> ReportToCommand
+    
+    MissionComplete["Mission Phase Complete
+    Character Development Point
+    Inter-squad Relationship Evolution"]:::success --> ReportToCommand
+    
+    ReportToCommand["Report to Imperial Command
+    Performance Evaluation
+    New Operation Preparation"]:::process --> End
+    
+    End([Deploy to Next Target Area])
+    
+    %% Character-specific subgraphs
+    subgraph ColonelActions [Colonel Stirling-Ironside Key Decision Points]
+        direction TB
+        C1["Strategic Oversight"]:::colonel
+        C2["Doctrinal Compliance Enforcement"]:::colonel
+        C3["Adaptation Authorization"]:::colonel
+        C4["Performance Evaluation"]:::colonel
+    end
+    
+    subgraph SergeantActions [Sergeant Coppergear Key Actions]
+        direction TB
+        S1["Reconnaissance Execution"]:::sergeant
+        S2["Practical Assessment"]:::sergeant
+        S3["Tactical Adaptation"]:::sergeant
+        S4["Combat Leadership"]:::sergeant
+    end
+    
+    subgraph LieutenantActions [Lieutenant Wellington-Brass Challenges]
+        direction TB
+        L1["Theoretical Plan Application"]:::lieutenant
+        L2["Processing Conflicts Between Theory and Reality"]:::lieutenant
+        L3["Authority Establishment Attempts"]:::lieutenant
+        L4["Performance Anxiety"]:::lieutenant
+    end
+    
+    subgraph PrivateActions [Private Cogsworth Development Points]
+        direction TB
+        P1["First Combat Experience"]:::private
+        P2["Learning Opportunity"]:::private
+        P3["Loyalty Testing Scenarios"]:::private
+        P4["Processing Evolution"]:::private
+    end

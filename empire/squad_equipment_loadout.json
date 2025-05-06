@@ -1,0 +1,473 @@
+{
+  "documentClassification": "Imperial Standard",
+  "squadDesignation": "Tactical Unit 9-RHO-7",
+  "operationDesignation": "Dimension L-337 Incursion",
+  "equipmentCalibration": "Victorian Recursion Pattern Optimization",
+  
+  "standardSquadEquipment": {
+    "communicationSystems": {
+      "primaryCommDevice": {
+        "designation": "Imperial Harmonic Comm-Link Mark VII",
+        "functionality": "Encrypted short-range squad communications",
+        "range": "15 km standard, 7 km in dimensional interference",
+        "encryption": "Quantum-locked dimensional frequency modulation",
+        "powerSource": "Integrated dimensional energy cell, 72-hour operation"
+      },
+      "secondaryCommDevice": {
+        "designation": "Emergency Pulse Transmitter",
+        "functionality": "Long-range distress and status reporting",
+        "range": "Dimensional vessel detection range (orbital)",
+        "encryption": "Single-use ciphers with self-destruction protocol",
+        "powerSource": "Reserve crystal cell, 3 transmissions maximum"
+      },
+      "squadSyncSystem": {
+        "designation": "Tactical Neural Network Interface",
+        "functionality": "Real-time tactical data sharing between squad members",
+        "range": "100 meters optimal, degrading signal to 250 meters maximum",
+        "encryptionLevel": "Unit-specific quantum entanglement",
+        "tacticaData": "Position tracking, target identification, ammunition status"
+      }
+    },
+    "defensiveSystems": {
+      "standardShielding": {
+        "designation": "Mark IV Dimensional Phase Barrier",
+        "protection": "87% effective against indigenous projectile weapons",
+        "energyEfficiency": "12 hours continuous operation",
+        "vulnerabilities": "Reduced effectiveness near dimensional anomalies",
+        "maintenanceRequirements": "Recalibration after 48 hours field deployment"
+      },
+      "armorPlating": {
+        "material": "Dimensional-phase composite with Victorian aesthetic integration",
+        "effectiveness": "Standard projectile deflection with energy dissipation layer",
+        "vulnerability": "Joints and connection points at 42% reduced protection",
+        "maintenanceNotes": "Self-repair capabilities for minor damage through nanite systems"
+      }
+    },
+    "universalTools": {
+      "dimensionalAnalyzer": {
+        "designation": "Portable Reality Scanner",
+        "functionality": "Detection of dimensional anomalies and weak points",
+        "range": "30 meter radius",
+        "accuracy": "93% in standard conditions, 76% near anomalies",
+        "powerConsumption": "Moderate; 48 hour continuous operation"
+      },
+      "multiTool": {
+        "designation": "Imperial Field Engineering Kit",
+        "functions": [
+          "Basic repair operations for squad equipment",
+          "Indigenous technology interface capability",
+          "Field fortification construction",
+          "Limited medical intervention for indigenous subjects"
+        ],
+        "limitations": "Advanced repairs require specialized units"
+      },
+      "dataCollectionDevice": {
+        "designation": "Imperial Cataloguing Assistant",
+        "functionality": "Automated collection and categorization of dimensional data",
+        "storage": "17 terabytes equivalent",
+        "analyticCapabilities": "Indigenous technology assessment, resource evaluation, tactical terrain analysis",
+        "uploading": "Burst transmission to Dimensional Vessel when in range"
+      }
+    }
+  },
+  
+  "unitSpecificEquipment": {
+    "colonelStirlingIronside": {
+      "primaryWeapon": {
+        "designation": "Officer-Pattern Dimensional Phase Rifle Mark III",
+        "functionality": "Long-range precision targeting with dimensional phase disruption",
+        "effectivenessRating": "97% lethal against biological targets",
+        "features": [
+          "Extended barrel for improved accuracy",
+          "Ornate brass fittings denoting rank",
+          "Integrated targeting system with 4x magnification",
+          "Selectable firing modes: precision, tactical, suppression"
+        ],
+        "ammunition": "Dimensional phase energy cell (300 shots)",
+        "maintenanceRequirements": "Minimal; barrel alignment check after 100 shots"
+      },
+      "secondaryWeapon": {
+        "designation": "Officer's Vibrational Saber",
+        "functionality": "Close-quarters dimensional frequency disruption",
+        "effectivenessRating": "Can slice through standard materials and biological matter",
+        "features": [
+          "Victorian cavalry saber aesthetic",
+          "Dimensional frequency oscillator in hilt",
+          "Gold-plated guard with Imperial insignia",
+          "Activation triggered by officer's unique frequency signature"
+        ],
+        "powerSource": "Self-sustaining dimensional resonance crystal"
+      },
+      "specializedEquipment": {
+        "tacticalCommandInterface": {
+          "designation": "Command Authority Matrix",
+          "functionality": "Enhanced battlefield awareness and squad coordination",
+          "features": [
+            "Real-time positioning of all squad members",
+            "Tactical overlay with terrain analysis",
+            "Priority target designation system",
+            "Performance monitoring of subordinate units"
+          ],
+          "integrationNotes": "Direct neural interface with Colonel's tactical processing systems"
+        },
+        "authorityVerificationModule": {
+          "designation": "Imperial Command Authentication System",
+          "functionality": "Provides command overrides for all Imperial systems",
+          "securityLevel": "Alpha-7 clearance",
+          "applications": [
+            "Reality Anchor activation authorization",
+            "Dimensional vessel recall protocols",
+            "Emergency extraction authorization",
+            "Field deactivation codes for subordinate units"
+          ]
+        },
+        "dimensionalStabilizer": {
+          "designation": "Officer's Portable Reality Anchor",
+          "functionality": "Creates localized stable dimensional field",
+          "effect": "Prevents unauthorized dimensional transit in 50-meter radius",
+          "duration": "4 hours at full power",
+          "tacticalApplications": [
+            "Secure command post establishment",
+            "Neutralizing indigenous dimensional technology (if encountered)",
+            "Emergency dimensional transit prevention"
+          ]
+        }
+      },
+      "trophies": {
+        "collectedArtifacts": [
+          {
+            "designation": "Crystallized Fragment of Dimension F-227",
+            "significance": "First command victory",
+            "storage": "Specialized containment in left chest compartment"
+          },
+          {
+            "designation": "Resistance Leader's Mechanical Heart Equivalent",
+            "significance": "Memento from particularly challenging campaign",
+            "storage": "Display mounting in right shoulder pauldron"
+          }
+        ],
+        "campaignMarkers": "17 notches on interior armor plating, visible only during maintenance"
+      }
+    },
+    "sergeantCoppergear": {
+      "primaryWeapon": {
+        "designation": "Scout-Pattern Dimensional Phase Rifle Mark V",
+        "functionality": "Adaptable combat weapon with enhanced stealth capabilities",
+        "effectivenessRating": "92% lethal against biological targets",
+        "features": [
+          "Modular configuration system for mission-specific adaptation",
+          "Integrated silencing field for stealth operations",
+          "Dimensional frequency scanner for optimal targeting",
+          "Weathered finish from extensive field use"
+        ],
+        "ammunition": "Dimensional phase energy cell (250 shots)",
+        "customModifications": "Enhanced cooling system for rapid fire capability"
+      },
+      "secondaryWeapon": {
+        "designation": "Reconnaissance Vibrational Daggers (Pair)",
+        "functionality": "Silent elimination and infiltration tool",
+        "effectivenessRating": "Can penetrate most indigenous materials",
+        "features": [
+          "Balanced for throwing or melee combat",
+          "Dimensional frequency matching target molecular structure",
+          "Minimal energy signature for stealth operations",
+          "Recall functionality via magnetic attraction"
+        ],
+        "powerSource": "Miniaturized dimensional energy cell"
+      },
+      "specializedEquipment": {
+        "advancedSensoryArray": {
+          "designation": "Multi-Spectrum Scout Package",
+          "functionality": "Enhanced environmental awareness and threat detection",
+          "features": [
+            "Thermal imaging with heat signature identification",
+            "Sonic detection system with pattern recognition",
+            "Dimensional frequency anomaly detection",
+            "Atmospheric composition analysis"
+          ],
+          "range": "Variable from 10m (detailed) to 2km (general)"
+        },
+        "stealthSystem": {
+          "designation": "Scout-Pattern Signature Suppression",
+          "functionality": "Reduces detectability on multiple sensing spectrums",
+          "effectiveness": "87% reduction in energy signature",
+          "duration": "3 hours at full capacity",
+          "limitations": "Movement speed restrictions apply; effectiveness reduced when weapons active"
+        },
+        "terrainNavigationSystem": {
+          "designation": "Advanced Topographical Mapping Unit",
+          "functionality": "Real-time terrain analysis and route optimization",
+          "features": [
+            "3D mapping with memory storage",
+            "Optimal path calculation based on multiple parameters",
+            "Indigenous structure integrity analysis",
+            "Water and resource detection"
+          ],
+          "integration": "Directly feeds tactical data to squad network"
+        }
+      },
+      "fieldAdaptations": {
+        "vocalProcessorDamage": {
+          "effect": "Occasional static and clicks in speech patterns",
+          "status": "Deemed non-critical; repair repeatedly deferred",
+          "tactical consideration": "Has become recognizable signature in field communications"
+        },
+        "armorReinforcement": {
+          "description": "Additional plating at key junction points",
+          "effect": "+32% protection at standard vulnerability points",
+          "tradeoff": "Slight reduction in maximum movement speed",
+          "reason": "Adaptation based on previous combat experiences"
+        },
+        "backupSystems": {
+          "description": "Redundant critical systems installed without authorization",
+          "components": [
+            "Secondary power regulation",
+            "Backup sensory processing",
+            "Emergency communication transmitter",
+            "Duplicate targeting systems"
+          ],
+          "justification": "Field experience indicates standard systems insufficient for extended operations"
+        }
+      }
+    },
+    "lieutenantWellingtonBrass": {
+      "primaryWeapon": {
+        "designation": "Officer-Pattern Dimensional Phase Rifle Mark VI",
+        "functionality": "Latest generation combat weapon with enhanced computational integration",
+        "effectivenessRating": "94% lethal against biological targets",
+        "features": [
+          "Factory-new condition with ceremonial polishing",
+          "Advanced targeting computer with predictive tracking",
+          "Imperial insignia prominently displayed on casing",
+          "Theoretical combat optimization algorithms pre-loaded"
+        ],
+        "ammunition": "Dimensional phase energy cell (275 shots)",
+        "specialNotes": "Lacks field adaptation; performs to factory specifications only"
+      },
+      "secondaryWeapon": {
+        "designation": "Standard Officer's Vibrational Saber",
+        "functionality": "Close-quarters combat and ceremonial display",
+        "effectivenessRating": "Standard dimensional disruption capabilities",
+        "features": [
+          "Pristine condition with ornate etching",
+          "Regulation dimensions and weight",
+          "Enhanced guard with Lieutenant's serial number",
+          "Activation mechanism requiring precise pressure application"
+        ],
+        "powerSource": "Standard dimensional resonance crystal",
+        "technicalNotes": "Minimal practice evidenced; theoretical knowledge only"
+      },
+      "specializedEquipment": {
+        "enhancedCommunicationSuite": {
+          "designation": "Command Communication Array 4.5",
+          "functionality": "Advanced data transmission and battlefield coordination",
+          "features": [
+            "Multi-channel simultaneous communication",
+            "Dimensional vessel direct link capability",
+            "Data packet compression for burst transmission",
+            "Interference elimination algorithms"
+          ],
+          "range": "Standard 20km, extended mode 45km with reduced security"
+        },
+        "tacticalAnalysisEngine": {
+          "designation": "Mark VII Battlefield Computer",
+          "functionality": "Real-time strategic calculation and simulation",
+          "processing": "17.3 trillion operations per second",
+          "features": [
+            "Comprehensive Imperial tactical database",
+            "Predictive modeling with 87% accuracy",
+            "Recursive pattern recognition",
+            "Automatic doctrine compliance verification"
+          ],
+          "limitations": "Requires actual field data to update theoretical models"
+        },
+        "dataRecordingSystem": {
+          "designation": "Advanced Performance Tracking Module",
+          "functionality": "Monitors squad performance and mission parameters",
+          "metrics": [
+            "Mission objective completion rate",
+            "Combat efficiency parameters",
+            "Resource utilization optimization",
+            "Doctrinal compliance verification"
+          ],
+          "notes": "All data automatically flagged for submission to Imperial Command"
+        }
+      },
+      "trainingSimulationPackage": {
+        "designation": "Officer Preparation Protocol Suite",
+        "functionalityNotes": "Contains comprehensive simulated combat experiences",
+        "simulationTypes": [
+          "Standard combat engagement (342 variations)",
+          "Urban pacification protocols (127 variations)",
+          "Indigenous resistance suppression (89 variations)",
+          "Resource protection scenarios (53 variations)"
+        ],
+        "limitation": "Simulations based on theoretical models rather than actual field data",
+        "integrationStatus": "Running constant comparison between simulation and reality"
+      }
+    },
+    "privateCogsworth": {
+      "primaryWeapon": {
+        "designation": "Standard-Pattern Dimensional Phase Rifle",
+        "functionality": "Basic infantry combat weapon",
+        "effectivenessRating": "90% lethal against biological targets",
+        "features": [
+          "Standard issue configuration without modifications",
+          "Basic targeting assistance system",
+          "Reinforced stock for melee capability",
+          "Energy efficiency calibration for extended operations"
+        ],
+        "ammunition": "Dimensional phase energy cell (200 shots)",
+        "performanceNote": "Exceptional accuracy in simulations; field performance pending"
+      },
+      "secondaryWeapon": {
+        "designation": "Infantry Vibrational Bayonet",
+        "functionality": "Close-quarters combat attachment for primary weapon",
+        "effectivenessRating": "Standard penetration capabilities",
+        "features": [
+          "Regulation dimensions and energy output",
+          "Quick-attach mounting system",
+          "Dimensional frequency modulation for material penetration",
+          "Optional handheld configuration"
+        ],
+        "powerSource": "Draws from primary weapon energy cell"
+      },
+      "specializedEquipment": {
+        "energyWeaponryKit": {
+          "designation": "Dimensional Phase Weapons Maintenance Package",
+          "functionality": "Field maintenance and optimization of squad energy weapons",
+          "components": [
+            "Frequency alignment tools",
+            "Energy flow regulators",
+            "Targeting system calibration equipment",
+            "Emergency repair components"
+          ],
+          "specialization": "Advanced training in energy weapon systems beyond standard infantry"
+        },
+        "enhancedOpticalSystems": {
+          "designation": "Infantry Targeting Enhancement",
+          "functionality": "Superior target acquisition and tracking",
+          "features": [
+            "Multi-spectrum visual processing",
+            "Ballistic trajectory calculation",
+            "Target priority assessment",
+            "Environmental factor compensation"
+          ],
+          "performance": "32% above standard infantry specifications"
+        },
+        "fieldSurvivalKit": {
+          "designation": "Standard Issue Adaptation Package",
+          "functionality": "Enables prolonged operation in various environments",
+          "components": [
+            "Atmospheric filtration system",
+            "Thermal regulation equipment",
+            "Emergency power cells",
+            "Basic repair components"
+          ],
+          "limitation": "Designed for temporary use only; not rated for extended deployment"
+        }
+      },
+      "developmentalEquipment": {
+        "learningAccelerationModule": {
+          "designation": "Combat Experience Optimization System",
+          "functionality": "Accelerates tactical learning and skill development",
+          "status": "Active during initial field deployment",
+          "mechanismOfAction": "Real-time combat experience integration with enhanced pattern recognition",
+          "monitoringNotes": "System flags unusual processing patterns for review"
+        },
+        "observationalDataSystem": {
+          "designation": "Environmental Assessment Package",
+          "functionality": "Collects and analyzes non-combat environmental data",
+          "justification": "Standard for new units to develop contextual awareness",
+          "limitations": "Processing allocation restricted to non-critical periods",
+          "developmentalPurpose": "Builds pattern recognition capabilities for future specialization potential"
+        }
+      }
+    }
+  },
+  
+  "equipmentInteroperability": {
+    "powerSharingProtocol": {
+      "description": "Emergency energy redistribution between squad members",
+      "limitation": "Reduces donor unit capabilities by 35%",
+      "priorityHierarchy": [
+        "Command units",
+        "Specialized function units",
+        "Standard infantry units"
+      ]
+    },
+    "weaponCompatibility": {
+      "standardization": "All dimensional phase weapons use compatible energy cells",
+      "crossUnit": "Weapons usable by any squad member with 17% reduced efficiency",
+      "limitation": "Specialized modifications optimized for specific unit's processing architecture"
+    },
+    "dataIntegrationSystem": {
+      "description": "Continuous information sharing across squad tactical network",
+      "capabilities": [
+        "Threat identification propagation",
+        "Tactical opportunity notification",
+        "Resource status monitoring",
+        "Command priority flagging"
+      ],
+      "securityProtocol": "Automatic memory purge upon unit capture detection"
+    }
+  },
+  
+  "equipmentMaintenanceSchedule": {
+    "fieldMaintenance": {
+      "daily": [
+        "Energy cell level verification",
+        "Basic systems diagnostic",
+        "Weapon cleaning and alignment verification",
+        "Communication system check"
+      ],
+      "responsibleUnit": "Each unit maintains own equipment with Private Cogsworth oversight"
+    },
+    "weeklyMaintenance": {
+      "procedures": [
+        "Detailed diagnostic scan",
+        "Targeting calibration",
+        "Armor integrity verification",
+        "Advanced systems optimization"
+      ],
+      "responsibleUnit": "Private Cogsworth with Lieutenant Wellington-Brass verification"
+    },
+    "missionCompletionProtocol": {
+      "procedures": [
+        "Complete systems diagnostic",
+        "Performance analysis and optimization",
+        "Damage repair and component replacement",
+        "Field adaptation documentation and assessment"
+      ],
+      "requiresImperialFacilities": true,
+      "doctrineDivergenceAssessment": "Standard component of maintenance procedure"
+    }
+  },
+  
+  "dramaticPotentialPoints": {
+    "equipmentMalfunction": {
+      "probabilityFactors": "Lieutenant's theoretical-only knowledge vs Private's practical maintenance skills",
+      "narrativeOpportunity": "Tension between Wellington-Brass's authority and Cogsworth's expertise",
+      "resolutionAuthority": "Colonel Stirling-Ironside with potential delegation to Sergeant Coppergear"
+    },
+    "resourceContention": {
+      "scenario": "Limited power or ammunition supplies requiring allocation decisions",
+      "commandChallenge": "Colonel's doctrinal approach vs Sergeant's practical field assessment",
+      "developmentalOpportunity": "Lieutenant's theoretical models tested against reality"
+    },
+    "advancedTechnologyDiscovery": {
+      "potential": "Indigenous Tesla-based weapon technology surpassing expectations",
+      "squadImplications": {
+        "Colonel": "Doctrine vs practical threat assessment",
+        "Sergeant": "Adaptation opportunity beyond standard protocols",
+        "Lieutenant": "Processing conflict between theory and observation",
+        "Private": "Curiosity leading to potential loyalty conflicts"
+      }
+    },
+    "equipmentCrossFunctionality": {
+      "scenario": "Sergeant or Colonel incapacitation requiring equipment transfer",
+      "challenge": "Lieutenant or Private operating beyond designed parameters",
+      "developmentalPath": "Accelerated learning through necessity vs doctrine compliance"
+    }
+  }
+}
