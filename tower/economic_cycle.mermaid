@@ -1,0 +1,53 @@
+flowchart TD
+    %% Spellwick Economic Cycle
+    %% Entities
+    Wizards[Wizards\n<small>Studious magical researchers</small>]
+    Sorcerers[Sorcerers\n<small>Flamboyant artifact collectors</small>]
+    Adventurers[Adventurers\n<small>Professional tower raiders</small>]
+    
+    %% Secondary Entities
+    Taverns[Taverns\n<small>Quest hubs & storytelling venues</small>]
+    Shops[Equipment Shops\n<small>Gear, potions, supplies</small>]
+    Insurance[Magical Insurance Providers\n<small>"We told you so" specialists</small>]
+    MonsterUnion[Amalgamated Federation of Dungeon Entities\n<small>Local #237</small>]
+    
+    %% Support Industry
+    TrapMakers[Trap Manufacturers\n<small>Creative security solutions</small>]
+    MonsterBreeders[Monster Breeding Facilities\n<small>Custom threat development</small>]
+    ResurrectionServices[Resurrection Services\n<small>When adventure goes wrong</small>]
+
+    %% Connections - Primary Cycle
+    Wizards -->|"Post bounties\nand research grants"| Taverns
+    Taverns -->|"Connect jobs\nwith capable teams"| Adventurers
+    Adventurers -->|"Raid towers\nfor artifacts"| Sorcerers
+    Sorcerers -->|"Rebuild collections\nand upgrade security"| TrapMakers
+    TrapMakers -->|"Supply security\nsystems"| Sorcerers
+    
+    %% Secondary Connections
+    Adventurers -->|"Purchase equipment\nwith bounty money"| Shops
+    Shops -->|"Supply magical\ncomponents"| Wizards
+    Sorcerers -->|"File claims for\nstolen artifacts"| Insurance
+    Insurance -->|"Pay claims,\nraise premiums"| Sorcerers
+    
+    %% Labor Relations
+    Sorcerers -->|"Hire and\nhouse monsters"| MonsterUnion
+    MonsterUnion -->|"Provide unionized\nthreat services"| Sorcerers
+    
+    %% Support Services
+    Sorcerers -->|"Commission\ncustom threats"| MonsterBreeders
+    MonsterBreeders -->|"Supply exotic\nentities"| Sorcerers
+    Adventurers -->|"Pay for revival\nafter fatal raids"| ResurrectionServices
+    ResurrectionServices -->|"Return adventurers\nto the workforce"| Adventurers
+    
+    %% Styling
+    classDef wizards fill:#9cbed6,stroke:#156a9c,color:#000
+    classDef sorcerers fill:#d6a4cc,stroke:#822d73,color:#000
+    classDef adventurers fill:#bbd6a4,stroke:#4f7023,color:#000
+    classDef support fill:#f2d0a4,stroke:#d9b26f,color:#000
+    classDef monsters fill:#d6a4a4,stroke:#c14b4b,color:#000
+    
+    class Wizards wizards
+    class Sorcerers sorcerers
+    class Adventurers,Taverns adventurers
+    class Shops,Insurance,TrapMakers,ResurrectionServices support
+    class MonsterUnion,MonsterBreeders monsters

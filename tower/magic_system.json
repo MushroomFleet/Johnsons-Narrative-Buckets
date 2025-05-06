@@ -1,0 +1,444 @@
+{
+  "system_name": "Spellwick Arcanomatic Framework",
+  "system_version": "17.4.2",
+  "last_revised": "Following the Zarathximagius Tower expedition",
+  "system_overview": "A comprehensive taxonomic classification of magical energies, practitioners, and interactions within the Spellwick ecosystem",
+  
+  "magical_energy": {
+    "fundamental_source": "Ambient magical energy permeating Spellwick",
+    "physical_manifestation": "Visible as faint aurora in rural areas, concentrated around towers",
+    "natural_concentration_points": ["Ley line intersections", "Ancient ritual sites", "Locations of significant historical events", "Areas where reality is naturally thin"],
+    "detection_methods": ["Thaumic resonance crystals", "Enchanted dowsing rods", "Sensitive practitioners", "Cats (for reasons unknown but empirically verified)"],
+    "vulnerability_windows": {
+      "description": "Temporary periods when magical barriers and defenses are weakened",
+      "known_triggers": [
+        {
+          "name": "Solar Eclipse Totality",
+          "duration": "30 seconds precisely",
+          "effectiveness": "Enables access to otherwise impenetrable magical vaults",
+          "notes": "Successfully exploited during Zarathximagius tower raid"
+        },
+        {
+          "name": "Planetary Alignments",
+          "duration": "Variable (3-17 minutes)",
+          "effectiveness": "Reduces magical resistance of established wards",
+          "notes": "Effectiveness correlates with number of planets involved"
+        },
+        {
+          "name": "Equinox Transitions",
+          "duration": "7 minutes centered on exact equinox moment",
+          "effectiveness": "Enhances dimensional permeability",
+          "notes": "Particularly useful for accessing pocket dimensions"
+        }
+      ]
+    }
+  },
+  
+  "primary_branches": {
+    "conventional_magic": {
+      "definition": "Well-documented magical disciplines with established theoretical foundations",
+      "reliability": 0.86,
+      "academic_acceptance": "Universal",
+      "learning_difficulty": "Proportional to practitioner's natural affinity and discipline chosen",
+      "schools": {
+        "evocation": {
+          "domain": "Direct energy manipulation",
+          "typical_applications": ["Combat spells", "Elemental manifestation", "Force projection", "Kinetic transfers"],
+          "risk_factors": ["Energy containment failure", "Collateral damage", "Power scaling miscalculations"],
+          "affinity_indicators": ["Quick temper", "Preference for immediate solutions", "Enjoyment of dramatic visual effects"]
+        },
+        "transmutation": {
+          "domain": "Matter alteration and property manipulation",
+          "typical_applications": ["Material enhancement", "Object transformation", "Healing (specialized application)", "Alchemical processes"],
+          "risk_factors": ["Incomplete transformations", "Conservation of mass violations", "Unintended property transfers"],
+          "affinity_indicators": ["Meticulous attention to detail", "Fascination with materials", "Tendency to modify personal possessions"]
+        },
+        "conjuration": {
+          "domain": "Creation of matter or summoning entities",
+          "typical_applications": ["Creating temporary objects", "Summoning creatures or elements", "Teleportation", "Extra-dimensional storage"],
+          "risk_factors": ["Summoning hostile entities", "Dimensional instability", "Conjured item degradation"],
+          "affinity_indicators": ["Collecting odd materials", "Interest in other planes", "Tendency to appear prepared for any situation"]
+        },
+        "abjuration": {
+          "domain": "Protection, warding, and defensive magics",
+          "typical_applications": ["Personal protection barriers", "Warding spaces against intrusion", "Negating hostile magic", "Reinforcing existing structures"],
+          "risk_factors": ["Ward collapse under pressure", "Protection prioritization errors", "Energy drain from sustained effects"],
+          "affinity_indicators": ["Cautious nature", "Preference for prevention over cure", "Personal space consciousness"]
+        },
+        "divination": {
+          "domain": "Information gathering and future sight",
+          "typical_applications": ["Scrying distant locations", "Limited future prediction", "Object or person location", "Truth verification"],
+          "risk_factors": ["Overwhelming information influx", "Temporal paradox exposure", "Privacy breach retribution"],
+          "affinity_indicators": ["Curiosity", "Detail orientation", "Tendency to know things without clear sources"]
+        },
+        "enchantment": {
+          "domain": "Mind and emotion manipulation",
+          "typical_applications": ["Suggestion", "Emotional state alteration", "Mental protection", "Memory modification"],
+          "risk_factors": ["Ethical violations", "Unintended mental state changes", "Target retribution"],
+          "affinity_indicators": ["Strong charisma", "Emotional intelligence", "Persuasiveness in mundane interactions"]
+        },
+        "illusion": {
+          "domain": "Sensory deception and perception alteration",
+          "typical_applications": ["Visual deception", "Auditory manipulation", "Full sensory illusions", "Reality perception filters"],
+          "risk_factors": ["Self-deception", "Reality disconnection", "Target psychological trauma"],
+          "affinity_indicators": ["Artistic tendencies", "Vivid imagination", "Appreciation for aesthetics"]
+        },
+        "necromancy": {
+          "domain": "Life force manipulation and death interactions",
+          "typical_applications": ["Animation of deceased", "Spirit communication", "Life force transfer", "Death postponement"],
+          "risk_factors": ["Spiritual contamination", "Ethical/legal consequences", "Attracted unwanted entities"],
+          "affinity_indicators": ["Comfort with mortality topics", "Pragmatic worldview", "Clinical detachment"]
+        },
+        "prismatic_manipulation": {
+          "domain": "Light-based magic incorporating expanded spectral understanding",
+          "typical_applications": ["Chromatic barrages", "Behavioral modification beams", "Weaponized craft supplies", "Light distillation"],
+          "risk_factors": ["Unintended hypnotic effects", "Permanent glitter contamination", "Non-standard color perception"],
+          "affinity_indicators": ["Unusual fashion sense", "Disproportionate enthusiasm for color theory", "Collection of unnecessary sparkly objects"],
+          "notable_practitioners": ["Lady Prismatica, First Illuminator of the Seventh Spectrum"],
+          "combat_applications": {
+            "recursive_loop_weakness": "Prismatic energies are particularly susceptible to being trapped in recursive mirror patterns, potentially creating feedback loops that overwhelm the original caster",
+            "contamination_aftereffects": "Exposure to prismatic combat techniques often results in persistent glitter residue resistant to standard cleaning methods"
+          }
+        }
+      }
+    },
+    "unconventional_magic": {
+      "definition": "Poorly understood magical disciplines with inconsistent theoretical models",
+      "reliability": "Variable (0.2-0.9 depending on practitioner, environmental factors, and current position of celestial bodies)",
+      "academic_acceptance": "Disputed",
+      "learning_difficulty": "Not traditionally 'learned' - accessed through innate connection, pacts, or accidents",
+      "disciplines": {
+        "chronothaumaturgical_flux": {
+          "domain": "Time manipulation",
+          "typical_manifestations": ["Localized time dilation", "Limited object regression/progression", "Temporal viewing", "Parallel-timeline glimpses"],
+          "stability_rating": 0.3,
+          "control_methods": ["Specialized chronometric foci", "Paradox anchoring rituals", "Recursive incantations"],
+          "notable_mishaps": ["The Three-Week Tuesday of 1487", "The Prematurely Aged Graduating Class of the Academy", "The Man Who Was His Own Grandfather (research pending)"],
+          "specialized_applications": {
+            "age_regression_field": {
+              "description": "Focused temporal manipulation that reverts targets to earlier developmental stages",
+              "effects": ["Physical regression", "Cognitive simplification", "Memory accessibility reduction"],
+              "countermeasures": ["Chronometric energy harvesting from regulatory timepieces", "Temporal anchoring talismans", "Reality stabilization through paradox assertion"],
+              "documented_cases": ["Broderick Ironheart's temporary toddler transformation during Zarathximagius tower raid"]
+            },
+            "temporal_stasis_field": {
+              "description": "Localized cessation of normal time flow, immobilizing subjects",
+              "duration_calculation": "73 minutes per standard application, variable with practitioner skill",
+              "energy_requirements": "Exponentially increases with radius of effect",
+              "limitations": "Cannot affect subjects with innate chronometric resistance"
+            }
+          },
+          "notable_practitioners": ["Pendleton Chronos, the Chronolibrarian"]
+        },
+        "dimensional_boundary_resonance": {
+          "domain": "Manipulation of barriers between realities",
+          "typical_manifestations": ["Dimensional portals", "Reality thinning", "Trans-dimensional viewing", "Planar property borrowing"],
+          "stability_rating": 0.4,
+          "control_methods": ["Reality anchor stones", "Dimensional harmonizers", "Geometric stabilization patterns"],
+          "notable_mishaps": ["The Topological Inversion of Wizard Pendleby's Laboratory", "The Town Square that Temporarily Relocated to the Astral Plane", "The Incident with the Reality-Sideways Sheep"],
+          "specialized_applications": {
+            "non_euclidean_makeovers": {
+              "description": "Restructuring of subjects through dimensional folding techniques",
+              "effects": ["Temporary existence as mathematical impossibilities", "Spatial distortion of bodily form", "Perceptual alteration of dimensional constants"],
+              "countermeasures": ["Direct physical force applied with sufficient conviction", "Dimensional immunity (rare)", "Reality recalculation through aggressive assertion"],
+              "documented_cases": ["The Tower Raiders' encounter with Sir Puffington III, Wardrobe Master of the Interdimensional Catwalk"]
+            }
+          }
+        },
+        "probabilistic_manipulation": {
+          "domain": "Alteration of event likelihood",
+          "typical_manifestations": ["Fortune enhancement", "Coincidence engineering", "Outcome nudging", "Statistical anomaly generation"],
+          "stability_rating": 0.7,
+          "control_methods": ["Probability calculation matrices", "Synchronicity focusing tools", "Quantum state observers"],
+          "notable_mishaps": ["The Lottery Where Everyone Won", "The Day Lightning Struck the Same Tower Seventeen Times", "The Statistical Impossibility of Guildmaster Horace"],
+          "notable_calculations": {
+            "zarathximagius_expedition": {
+              "calculated_success_probability": "27.3%",
+              "calculating_practitioner": "Grok Stonefist, Battle Mathematician",
+              "accuracy_verification": "Precisely accurate, confirming formula validity",
+              "variables_considered": ["Eclipse alignment", "Tower defenses", "Team composition", "Artifact security"]
+            }
+          }
+        },
+        "reality_consensus_override": {
+          "domain": "Localized reality alteration through belief imposition",
+          "typical_manifestations": ["Temporary physical law amendments", "Conceptual manifestation", "Belief-to-reality translation", "Subjective experience universalization"],
+          "stability_rating": 0.2,
+          "control_methods": ["Group consciousness focusing techniques", "Reality anchor participants", "Plausibility limiters"],
+          "notable_mishaps": ["The Village That Temporarily Believed Itself Underwater", "The Collective Hallucination of Flying Pigs Over Spellwick Capital", "The Week Everyone Thought They Were Someone Else"]
+        },
+        "narrative_causality": {
+          "domain": "Magic operating according to story logic rather than natural law",
+          "typical_manifestations": ["Dramatic timing", "Poetic justice manifestations", "Ironic outcomes", "Genre-appropriate coincidences"],
+          "stability_rating": 0.6,
+          "control_methods": ["Narrative framing devices", "Storytelling techniques", "Dramatic timing awareness"],
+          "notable_mishaps": ["The Villain Monologue That Actually Succeeded", "The Unexpected Genre Shift of the Battle of Three Bridges", "The Hero Who Forgot His Line and Accidentally Ended the Plot"]
+        },
+        "stellar_cognition": {
+          "domain": "Information access through stellar connections",
+          "typical_manifestations": ["Precise prediction of specific uncommon events", "Knowledge with no discernible source", "Cryptic but ultimately accurate guidance"],
+          "stability_rating": 0.5,
+          "control_methods": ["Celestial alignment awareness", "Star-communication rituals", "Nocturnal meditation"],
+          "information_quality": "Questionable tactical value but occasional strategic importance",
+          "verified_instances": {
+            "counterfeit_authorization": {
+              "practitioner": "Whisper, Star-Connected Entity",
+              "application": "Temporary security bypass of Animated Armor Division",
+              "information_source": "Star-based intelligence network",
+              "effectiveness": "Complete but time-limited"
+            },
+            "mirror_countermeasure": {
+              "practitioner": "Whisper, Star-Connected Entity",
+              "application": "Creation of recursive energy loop against Lady Prismatica",
+              "star_guidance": "Specific countermeasure tailored to chromatic energy vulnerabilities",
+              "effectiveness": "Complete neutralization of prismatic opponent"
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "practitioner_types": {
+    "wizards": {
+      "power_source": "Studied and acquired through academic discipline",
+      "methodology": "Systematic application of magical principles following established protocols",
+      "primary_strengths": ["Theoretical understanding", "Broad magical knowledge", "Methodical approach", "Documented spell creation"],
+      "primary_weaknesses": ["Dependency on spell components", "Over-reliance on established methods", "Slower casting in emergencies", "Academic blindspots"],
+      "tool_dependencies": ["Spellbooks", "Components", "Foci", "Reference materials"],
+      "cultural_position": "Academic respect with occasional mockery for impracticality",
+      "organizational_structures": {
+        "arcane_collegium": {
+          "description": "Prestigious wizarding institution dedicated to magical research and artifact acquisition",
+          "notable_representatives": ["Albrus the Methodical"],
+          "acquisition_methods": ["Commissioned tower raids", "Academic exchanges", "Archaeological excavations"],
+          "artifact_interests": ["Orb of Astounding Revelations and similar cosmological insight devices"]
+        }
+      }
+    },
+    "sorcerers": {
+      "power_source": "Innate abilities present from birth",
+      "methodology": "Intuitive manipulation of magical forces with personal flair",
+      "primary_strengths": ["Natural affinity", "Component-light casting", "Adaptable spell effects", "Intuitive magical interactions"],
+      "primary_weaknesses": ["Limited theoretical understanding", "Inconsistent results under pressure", "Difficulty teaching others", "Power fluctuations"],
+      "tool_dependencies": ["Personal foci", "Minimal components", "Dramatic gestures"],
+      "cultural_position": "Mixture of envy, suspicion, and architectural criticism",
+      "tower_defense_innovations": {
+        "predictive_countermeasures": {
+          "description": "Anticipatory defense strategies against expected theft attempts",
+          "exemplars": ["Zarathximagius's pre-emptive artifact relocation"],
+          "effectiveness_rating": "Surprisingly high (estimated 82% raid disruption)",
+          "psychological_impact": "Significant morale reduction for adventuring parties"
+        },
+        "specialized_guardians": {
+          "description": "Custom security entities with unique protective capabilities",
+          "notable_examples": [
+            {
+              "name": "Lady Prismatica, First Illuminator of the Seventh Spectrum",
+              "specialization": "Chromatic combat techniques",
+              "security_level": "Third Floor Guardian",
+              "vulnerabilities": "Recursive energy reflection"
+            },
+            {
+              "name": "Pendleton Chronos, the Chronolibrarian",
+              "specialization": "Temporal manipulation and age regression fields",
+              "security_level": "Fourth Floor Guardian",
+              "vulnerabilities": "Chronometric energy harvesting from regulatory timepieces"
+            },
+            {
+              "name": "Sir Puffington III, Wardrobe Master of the Interdimensional Catwalk",
+              "specialization": "Non-Euclidean makeovers and dimensional restructuring",
+              "security_level": "Fifth Floor Guardian",
+              "vulnerabilities": "Dimensional immunity and aggressive physical assertion"
+            }
+          ]
+        },
+        "support_personnel": {
+          "description": "Non-combat staff providing auxiliary tower functions",
+          "examples": ["Mathilda, housekeeper to Zarathximagius"],
+          "unexpected_skills": ["Production of high-quality baked goods", "Professional courtesy in defeat scenarios"],
+          "strategic_value": "Often overlooked but potentially crucial to successful tower operations"
+        }
+      }
+    },
+    "healers": {
+      "power_source": "Connection to life energies, often divine or natural",
+      "methodology": "Directed restoration of natural states and energy balancing",
+      "primary_strengths": ["Specialized restoration magic", "Anatomical knowledge", "Diagnostic abilities", "Crisis management"],
+      "primary_weaknesses": ["Limited offensive capabilities", "Self-neglect tendencies", "Energy depletion risks", "Emotional investment"],
+      "tool_dependencies": ["Natural components", "Specialized foci", "Medical knowledge", "Cookies of questionable content"],
+      "cultural_position": "Universal respect with mild apprehension about their methods",
+      "adaptational_developments": {
+        "offensive_alchemy": {
+          "description": "Healing practitioners developing combat-oriented applications of medical knowledge",
+          "exemplars": ["Morganthe Bloom's Experimental Compound #37-B"],
+          "applications": ["Rapid oxidation of ferrous metals for use against animated armor"],
+          "side_effects": ["Temporary rust discoloration of nearby allies"],
+          "theoretical_basis": "Medical knowledge of chemical reactions repurposed for tactical applications"
+        }
+      }
+    },
+    "battle_mathematicians": {
+      "power_source": "Hybrid discipline combining combat training with theoretical mathematics",
+      "methodology": "Application of precise numerical analysis to optimize combat tactics",
+      "primary_strengths": ["Tactical analysis", "Predictive modeling", "Efficiency optimization", "Calculated risk assessment"],
+      "primary_weaknesses": ["Analysis paralysis", "Overreliance on models", "Difficulty with chaotic variables", "Visible frustration with imprecision"],
+      "tool_dependencies": ["Calculation tools", "Combat equipment", "Tactical journals", "Statistical reference materials"],
+      "cultural_position": "Respected by warriors, consulted by mages, underestimated by everyone else",
+      "notable_calculations": {
+        "eclipse_alignment_calculations": {
+          "description": "Mathematical models of astronomical effects on magical defenses",
+          "practitioner": "Grok Stonefist",
+          "accuracy": "Precise to within ±1.2 seconds",
+          "applications": ["Identifying 30-second vulnerability windows during eclipses"]
+        },
+        "infiltration_probability_assessments": {
+          "description": "Calculated likelihood of successful entry points",
+          "example": "63.7% probability of the northwestern drainage tunnel being a deliberate trap",
+          "noted_observation": "Deliberate traps often provide more reliable access than accidental vulnerabilities"
+        }
+      }
+    },
+    "warlocks_witches": {
+      "power_source": "Pacts with entities or ancient bloodline magic",
+      "methodology": "Channeling external powers through personal agreements",
+      "primary_strengths": ["Access to unique magical effects", "Intuitive understanding of cosmic forces", "Unconventional problem solving", "Entity communication"],
+      "primary_weaknesses": ["Pact limitations", "Entity mood dependency", "Cryptic instruction interpretation", "Social suspicion"],
+      "tool_dependencies": ["Pact symbols", "Entity offerings", "Connection strengthening rituals", "Reality anchors"],
+      "cultural_position": "Mixture of fear, fascination, and gossipy speculation"
+    },
+    "specialized_security_personnel": {
+      "chronolibrarian": {
+        "power_source": "Specialized temporal manipulation training",
+        "methodology": "Curator of multi-timeline information with chronometric defensive capabilities",
+        "primary_strengths": ["Age regression fields", "Temporal stasis application", "Cross-timeline knowledge"],
+        "primary_weaknesses": ["Vulnerability to concentrated chronometric energy", "Academic distractibility", "Citation obsession"],
+        "tool_dependencies": ["Regulatory timepieces", "Multi-timeline literature", "Temporal stabilizers"],
+        "combat_applications": "Temporary incapacitation through developmental regression"
+      },
+      "prismatic_illuminator": {
+        "power_source": "Advanced understanding of the expanded light spectrum",
+        "methodology": "Manipulation of light frequencies beyond conventional perception",
+        "primary_strengths": ["Chromatic barrage attacks", "Behavioral modification beams", "Craft supply weaponization"],
+        "primary_weaknesses": ["Vulnerability to recursive reflection", "Excessive enthusiasm", "Persistent residue generation"],
+        "tool_dependencies": ["Prismatic foci", "Light distillation equipment", "Spectrum-expanding lenses"],
+        "combat_applications": "Overwhelming sensory assault combined with physical transformation effects"
+      },
+      "reality_couturier": {
+        "power_source": "Dimensional fabric manipulation abilities",
+        "methodology": "Reality restructuring through aesthetic principles",
+        "primary_strengths": ["Non-Euclidean makeovers", "Dimensional restructuring", "Existence alteration"],
+        "primary_weaknesses": ["Vulnerability to physical force applied with conviction", "Fashion distraction", "Dimensional immunity"],
+        "tool_dependencies": ["Reality scissors", "Fabric of space-time samples", "Interdimensional pattern books"],
+        "combat_applications": "Temporary transformation of opponents into mathematical impossibilities"
+      }
+    }
+  },
+  
+  "energy_interactions": {
+    "harmonic_combinations": [
+      {
+        "components": ["Fire", "Air"],
+        "result": "Explosive combustion with increased area of effect",
+        "stability": 0.5,
+        "amplification_factor": 2.7,
+        "control_difficulty": "High"
+      },
+      {
+        "components": ["Water", "Earth"],
+        "result": "Quicksand generation with enhanced binding properties",
+        "stability": 0.8,
+        "amplification_factor": 1.8,
+        "control_difficulty": "Moderate"
+      },
+      {
+        "components": ["Time", "Probability"],
+        "result": "Convenient coincidence field that ensures optimal timing",
+        "stability": 0.4,
+        "amplification_factor": 3.2,
+        "control_difficulty": "Very High"
+      },
+      {
+        "components": ["Illusion", "Enchantment"],
+        "result": "Complete sensory narrative that restructures short-term memory",
+        "stability": 0.6,
+        "amplification_factor": 2.2,
+        "control_difficulty": "High"
+      },
+      {
+        "components": ["Prismatic Energy", "Mirror Surface"],
+        "result": "Recursive loop creating exponential energy amplification",
+        "stability": 0.3,
+        "amplification_factor": 5.8,
+        "control_difficulty": "Very High",
+        "documented_applications": "Successful neutralization of Lady Prismatica during Zarathximagius tower raid"
+      }
+    ],
+    "dysharmonic_combinations": [
+      {
+        "components": ["Fire", "Water"],
+        "result": "Steam explosion and spell cancellation",
+        "danger_level": "Moderate",
+        "typical_radius": "3-5 meters",
+        "containment_methods": "Standard elemental warding"
+      },
+      {
+        "components": ["Necromancy", "Healing"],
+        "result": "Unstable semi-living state and practitioner nausea",
+        "danger_level": "High",
+        "typical_radius": "Affected target plus 1 meter",
+        "containment_methods": "Life energy stabilizers and etheric purifiers"
+      },
+      {
+        "components": ["Reality Override", "Dimensional Boundary"],
+        "result": "Spacetime hiccups and temporary physics vacation",
+        "danger_level": "Extreme",
+        "typical_radius": "5-50 meters (unpredictable)",
+        "containment_methods": "Reality anchor network and dimensional stabilizers"
+      },
+      {
+        "components": ["Divination", "Narrative Causality"],
+        "result": "Predestination loop that enforces observed outcome",
+        "danger_level": "Theoretical",
+        "typical_radius": "Unknown",
+        "containment_methods": "Paradox breakers and timeline diversification"
+      },
+      {
+        "components": ["Ferrous Metals", "Experimental Compound #37-B"],
+        "result": "Rapid oxidation causing structural compromise",
+        "danger_level": "Low to Moderate",
+        "typical_radius": "All affected metal within 7 meters",
+        "containment_methods": "Anti-corrosion warding, non-metallic barriers",
+        "documented_applications": "Effective neutralization of Animated Armor Division in Zarathximagius tower"
+      }
+    ],
+    "celestial_influences": {
+      "solar_eclipse": {
+        "effect_on_magic": "Creates 30-second vulnerability window in otherwise impenetrable magical defenses",
+        "magical_domains_affected": ["Warding systems", "Artifact protection", "Security enchantments"],
+        "exploitation_potential": "High value target acquisition during totality",
+        "documented_cases": "Zarathximagius vault access during eclipse alignment"
+      },
+      "star_positioning": {
+        "effect_on_magic": "Enhances or diminishes stellar cognition accuracy",
+        "practitioners_affected": "Star-connected entities such as Whisper",
+        "intelligence_reliability": "Variable, but strategic importance confirmed in multiple expeditions"
+      }
+    }
+  },
+  
+  "implementation_notes": {
+    "reality_consistency": "Magical effects exhibit a 76% consistency rate under controlled conditions, dropping to 42% in tower upper levels",
+    "rule_exceptions": "All documented magical rules have at least three exceptions, which themselves have exceptions",
+    "academic_disputes": "The seven major magical academies maintain different theoretical models that all produce functional results despite mutual exclusivity",
+    "practical_applications": "Despite theoretical inconsistencies, practical spellcasting remains possible through what specialists term 'reality negotiation'",
+    "sorcerer_adaptations": "Evidence suggests that leading sorcerers have begun implementing countermeasures against predictable raid tactics, including artifact relocation and timeline-specific guardian deployment"
+  },
+  
+  "compilation_credits": {
+    "primary_researchers": ["The Spellwick Adventurers' Guild Education Committee", "Survivors of Various Tower Expeditions", "Several Reluctantly Cooperative Sorcerers"],
+    "field_researchers": ["The Tower Raiders (Zarathximagius Expedition Team)"],
+    "peer_review": "Attempted but abandoned after reviewers kept transforming into various small mammals",
+    "warranty": "None whatsoever. Users of this information do so at their own risk, dimensional stability, and continued existence as a unified consciousness."
+  }
+}

@@ -1,0 +1,67 @@
+graph TD
+    %% Tower Level Danger Progression Chart
+    
+    %% Define the nodes for each tower level
+    Pinnacle[("Pinnacle Level\n<small>D > 500 SDU</small>\n<small>Quantum uncertainty</small>")]
+    Level10[("Level 10\n<small>D ≈ 400-500 SDU</small>\n<small>Reality negotiation zone</small>")]
+    Level9[("Level 9\n<small>D ≈ 300-400 SDU</small>\n<small>Temporal instability zone</small>")]
+    Level8[("Level 8\n<small>D ≈ 200-300 SDU</small>\n<small>Physics-optional zone</small>")]
+    Level7[("Level 7\n<small>D ≈ 150-200 SDU</small>\n<small>Elemental crisis entities</small>")]
+    Level6[("Level 6\n<small>D ≈ 100-150 SDU</small>\n<small>Gargoyle impostor syndrome ward</small>")]
+    Level5[("Level 5\n<small>D ≈ 75-100 SDU</small>\n<small>Non-Euclidean geometry zone</small>")]
+    Level4[("Level 4\n<small>D ≈ 50-75 SDU</small>\n<small>Transposing rooms section</small>")]
+    Level3[("Level 3\n<small>D ≈ 25-50 SDU</small>\n<small>Professional hazard zone</small>")]
+    Level2[("Level 2\n<small>D ≈ 10-25 SDU</small>\n<small>Basic puzzle and barrier floor</small>")]
+    Level1[("Level 1\n<small>D < 10 SDU</small>\n<small>Token security measures</small>")]
+    Entrance[("Ground Entrance\n<small>D ≈ 0 SDU</small>\n<small>Insurance liability compliance</small>")]
+    
+    %% Connect the levels in ascending order
+    Entrance --> Level1
+    Level1 --> Level2
+    Level2 --> Level3
+    Level3 --> Level4
+    Level4 --> Level5
+    Level5 --> Level6
+    Level6 --> Level7
+    Level7 --> Level8
+    Level8 --> Level9
+    Level9 --> Level10
+    Level10 --> Pinnacle
+    
+    %% Add details about the danger formula
+    DangerFormula["Danger Formula:\nD = F × (L² + M) ÷ CS\n<small>Where D = Danger, F = Flashiness,\nL = Level, M = Monsters, CS = Common Sense</small>"]
+    
+    %% Add typical monsters and traps for different level ranges
+    LowLevelThreats["<small><b>Low Level Threats (1-3)</b>\n- Animated objects\n- Oversized vermin\n- Lost goblins\n- Sleepy guards</small>"]
+    MidLevelThreats["<small><b>Mid Level Threats (4-7)</b>\n- Elementals with existential crises\n- Gargoyles with impostor syndrome\n- Quantum riddles\n- Reality-bending puzzles</small>"]
+    HighLevelThreats["<small><b>High Level Threats (8-10)</b>\n- Reality-bending entities\n- Reverse gravity zones\n- Time-flow distortions\n- Paradox creatures</small>"]
+    PinnacleThreats["<small><b>Pinnacle Threats</b>\n- Consciousness-altering spaces\n- Memory-editing environments\n- Entities beyond description\n- The sorcerer (potentially)</small>"]
+    
+    %% Connect threat information to relevant sections
+    LowLevelThreats -.-> Level2
+    MidLevelThreats -.-> Level6
+    HighLevelThreats -.-> Level9
+    PinnacleThreats -.-> Pinnacle
+    
+    %% Add artifact value correlation
+    ArtifactValue["<small><b>Artifact Value Correlation</b>\n- Danger level typically corresponds\n to artifact value exponentially\n- Most valuable items kept at pinnacle\n- Load-bearing artifacts typically\n found at levels 8+</small>"]
+    
+    ArtifactValue -.-> Level10
+    
+    %% Add the formula explanation to the diagram
+    DangerFormula -.-> Level5
+    
+    %% Styling
+    classDef entrance fill:#bbd6a4,stroke:#4f7023,color:#000
+    classDef lowLevel fill:#d6e0a4,stroke:#82902d,color:#000
+    classDef midLevel fill:#d6c3a4,stroke:#a57939,color:#000
+    classDef highLevel fill:#d6a4a4,stroke:#a53939,color:#000
+    classDef pinnacle fill:#d6a4cc,stroke:#822d73,color:#000
+    classDef info fill:#f0f0f0,stroke:#999999,color:#000,stroke-dasharray: 5 5
+    
+    class Entrance entrance
+    class Level1,Level2,Level3 lowLevel
+    class Level4,Level5,Level6,Level7 midLevel
+    class Level8,Level9,Level10 highLevel
+    class Pinnacle pinnacle
+    class DangerFormula,LowLevelThreats,MidLevelThreats,HighLevelThreats,PinnacleThreats,ArtifactValue info

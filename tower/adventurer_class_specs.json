@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "version": "17.3",
+    "last_updated": "After the Unfortunate Incident with Edition 16",
+    "disclaimer": "The Spellwick Adventurers' Guild accepts no liability for career choices made based on these specifications"
+  },
+  "class_specifications": {
+    "warrior": {
+      "class_name": "Warrior",
+      "primary_attributes": ["Strength", "Constitution", "Weapon Naming Creativity"],
+      "survival_rate": "62% (higher if accompanied by a competent healer)",
+      "equipment_requirements": {
+        "armor": "As much metal as physically possible to wear while still maintaining mobility",
+        "weapons": "At least one primary weapon with a dramatic name and backstory",
+        "accessories": "Inexplicable pouches, battle trophies, emergency rations"
+      },
+      "role_functions": {
+        "primary": "Frontline combatant and tactical meat shield",
+        "secondary": "Triggering traps that somehow evaded the rogue's detection",
+        "tertiary": "Asking wizards to explain magical concepts then interrupting halfway through"
+      },
+      "special_abilities": {
+        "Battle Cry": {
+          "effect": "50% chance of intimidating enemies, 100% chance of alerting all enemies within earshot",
+          "cooldown": "Recovers after drinking one tankard of ale"
+        },
+        "Tactical Withdrawal": {
+          "effect": "Dignified retreat preserving the warrior's ego",
+          "cooldown": "Available whenever the healer suggests running away"
+        },
+        "Implausible Survival": {
+          "effect": "Survive lethal damage through sheer narrative necessity",
+          "cooldown": "Once per tower raid, usable only when the plot requires it"
+        }
+      },
+      "advancement_path": {
+        "novice": "Young Hero With Something to Prove",
+        "intermediate": "Seasoned Combatant with Dramatic Scars",
+        "expert": "Grizzled Veteran with Improbable Survival Stories",
+        "master": "Living Legend Whose Battle Stories Grow More Exaggerated With Each Retelling"
+      },
+      "common_causes_of_death": [
+        "Overconfidence",
+        "Gravity",
+        "Attempting to engage in witty repartee with clearly superior intellects",
+        "Touching the glowing thing after being specifically told not to touch the glowing thing"
+      ]
+    },
+    "mage": {
+      "class_name": "Mage",
+      "primary_attributes": ["Intelligence", "Arcane Knowledge", "Excuse Fabrication"],
+      "survival_rate": "41% (decreases dramatically when out of spell components)",
+      "equipment_requirements": {
+        "robes": "Impractical for adventuring but traditional",
+        "components": "Various pouches containing materials that inevitably spill at critical moments",
+        "accessories": "At least one item that glows for no functional reason"
+      },
+      "role_functions": {
+        "primary": "Arcane artillery and walking magical encyclopedia",
+        "secondary": "Explaining why teleportation directly to the treasure room is impossible",
+        "tertiary": "Creating light sources that attract precisely the monsters the party was avoiding"
+      },
+      "special_abilities": {
+        "Theoretical Solution": {
+          "effect": "Provide lengthy academic explanation of a problem without offering practical help",
+          "cooldown": "Available whenever someone asks 'Can't you just...?'"
+        },
+        "Convenient Amnesia": {
+          "effect": "Temporarily forget a useful spell that would solve the current problem too easily",
+          "cooldown": "Recharges immediately after the crisis has been resolved through more complicated means"
+        },
+        "Actually Useful Spell": {
+          "effect": "Cast exactly the right spell for the situation",
+          "cooldown": "Once per adventure, typically saved for the final confrontation"
+        }
+      },
+      "advancement_path": {
+        "novice": "Apprentice with More Theoretical Knowledge Than Practical Experience",
+        "intermediate": "Spell Slinger with Suspiciously Singed Eyebrows",
+        "expert": "Arcane Specialist with Increasingly Esoteric Research Interests",
+        "master": "Theoretical Impossibility Expert Whose Name Is Whispered in Academic Circles"
+      },
+      "common_causes_of_death": [
+        "Experimental spell miscalculation",
+        "Running out of spell components at critical moments",
+        "Curiosity about magical phenomena that should clearly be left alone",
+        "Accidentally summoning entities well above their management capabilities"
+      ]
+    },
+    "healer": {
+      "class_name": "Healer",
+      "primary_attributes": ["Wisdom", "Patience", "Ability to Remain Cheerful While Covered in Blood"],
+      "survival_rate": "73% (typically the last to die in a party wipe)",
+      "equipment_requirements": {
+        "attire": "Practical robes with inexplicable ability to repel most bodily fluids",
+        "supplies": "Bandages, herbs, potions, and cookies with questionable ingredients",
+        "accessories": "At least one holy symbol, whether relevant to their powers or not"
+      },
+      "role_functions": {
+        "primary": "Keeping the party alive despite their best efforts to the contrary",
+        "secondary": "Delivering lectures about safety while reattaching limbs",
+        "tertiary": "Maintaining group morale through a combination of encouragement and threats"
+      },
+      "special_abilities": {
+        "Miraculous Recovery": {
+          "effect": "Restore a party member from the brink of death with a success rate directly proportional to how foolishly they ended up there",
+          "cooldown": "Recharges after a solid night's sleep or an existential crisis, whichever comes first"
+        },
+        "Healing Cookie": {
+          "effect": "Provide medical treatment disguised as a tasty treat, with side effects ranging from mild hallucinations to temporary hair color changes",
+          "cooldown": "Limited by baking supplies available"
+        },
+        "Guilt Trip": {
+          "effect": "Significantly reduce reckless behavior through the strategic deployment of disappointed sighs",
+          "cooldown": "Effectiveness decreases with repeated use on the same target"
+        }
+      },
+      "advancement_path": {
+        "novice": "Optimistic Field Medic",
+        "intermediate": "Slightly Jaded Trauma Specialist",
+        "expert": "Miracle Worker with Thousand-Yard Stare",
+        "master": "Living Saint with Disturbing Interest in Rare Injuries"
+      },
+      "common_causes_of_death": [
+        "Self-sacrifice to save ungrateful party members",
+        "Exhaustion from overextending healing capabilities",
+        "Forgetting to heal themselves while focusing on others",
+        "Being targeted first by intelligent enemies who understand tactical priorities"
+      ]
+    },
+    "rogue": {
+      "class_name": "Rogue",
+      "primary_attributes": ["Dexterity", "Perception", "Creative Definition of Ownership"],
+      "survival_rate": "67% (decreases dramatically when caught stealing from party members)",
+      "equipment_requirements": {
+        "attire": "Dark clothing with an impractical number of hidden pockets",
+        "tools": "Lockpicks with sentimental names and individualized cases",
+        "accessories": "At least three concealed weapons and one concealed snack"
+      },
+      "role_functions": {
+        "primary": "Trap detection, lock manipulation, and tactical acquisitions",
+        "secondary": "Reconnaissance and advance scouting",
+        "tertiary": "Explaining why certain items mysteriously vanished"
+      },
+      "special_abilities": {
+        "Convenient Shadow": {
+          "effect": "Become suddenly unavailable when manual labor is required",
+          "cooldown": "Resets immediately after work is complete"
+        },
+        "Selective Honesty": {
+          "effect": "Tell the exact truth in a way that conveys a complete falsehood",
+          "cooldown": "Always available"
+        },
+        "Trap Sense": {
+          "effect": "Detect traps with 95% accuracy, with failures occurring primarily when the warrior is directly behind",
+          "cooldown": "Refreshes after someone says 'I told you so'"
+        }
+      },
+      "advancement_path": {
+        "novice": "Suspicious Character with Basic Pickpocketing Skills",
+        "intermediate": "Security Consultant with Morally Ambiguous Past",
+        "expert": "Master of Infiltration with Impressive Collection of 'Souvenirs'",
+        "master": "Shadow Legend Whose Exploits Are Known But Can Never Be Proven"
+      },
+      "common_causes_of_death": [
+        "Overconfidence in trap-disarming abilities",
+        "Stealing from the wrong person/entity",
+        "Looking back to gloat while fleeing",
+        "Betrayed by fellow rogues in competing thieves' guilds"
+      ]
+    },
+    "battle_mathematician": {
+      "class_name": "Battle Mathematician",
+      "primary_attributes": ["Intelligence", "Strength", "Ability to Calculate Trajectory While Being Punched"],
+      "survival_rate": "84% (highest among specialized classes due to excellent risk assessment)",
+      "equipment_requirements": {
+        "attire": "Practical armor with formula engravings and reinforced spectacle attachments",
+        "weapons": "Precisely balanced for optimal force application",
+        "accessories": "Calculation tools, tactical journals, and emergency statistical reference charts"
+      },
+      "role_functions": {
+        "primary": "Combat optimization and tactical coordination",
+        "secondary": "Calculating resource usage efficiency",
+        "tertiary": "Explaining to warriors why their intuitive approach is statistically flawed"
+      },
+      "special_abilities": {
+        "Calculated Strike": {
+          "effect": "Attack with precision based on complex mathematical formulas, dealing damage inversely proportional to the target's understanding of algebra",
+          "cooldown": "Requires 1d4 rounds of uninterrupted calculation"
+        },
+        "Statistical Analysis": {
+          "effect": "Determine the optimal course of action with 98.4% accuracy (±2.7% margin of error)",
+          "cooldown": "Available at will, but effectiveness decreases under pressure"
+        },
+        "Primal Algorithm": {
+          "effect": "Temporarily abandon rational calculation for instinctive battle rage, with effectiveness proportional to how long they've been suppressing the urge to simply hit things",
+          "cooldown": "Requires reestablishing mathematical discipline through meditation"
+        }
+      },
+      "advancement_path": {
+        "novice": "Formula Student with Theoretical Combat Models",
+        "intermediate": "Equation Warrior with Battle-Tested Theories",
+        "expert": "Combat Statistician with Published Papers on Applied Violence Mathematics",
+        "master": "Living Calculator with Perfect Combat Efficiency Record"
+      },
+      "common_causes_of_death": [
+        "Analysis paralysis during dynamic combat situations",
+        "Failure to account for chaotic variables (typically introduced by party members)",
+        "Overreliance on models that don't account for reality's inherent absurdity",
+        "Being targeted by enemies who recognize their tactical importance"
+      ]
+    },
+    "bard_warlock": {
+      "class_name": "Bard/Warlock",
+      "primary_attributes": ["Charisma", "Otherworldly Connections", "Cryptic Utterance"],
+      "survival_rate": "Unknown (survivors tend to return with different personalities)",
+      "equipment_requirements": {
+        "attire": "Eclectic combination of fashions from different eras and realms",
+        "instruments": "Seemingly ordinary items that occasionally emit unsettling sounds when not being played",
+        "accessories": "Collection of trinkets that appear worthless but have deep personal significance"
+      },
+      "role_functions": {
+        "primary": "Social interaction specialist and information gatherer",
+        "secondary": "Provider of cryptically specific knowledge about current situations",
+        "tertiary": "Source of unsettling but ultimately useful connections"
+      },
+      "special_abilities": {
+        "Convenient Revelation": {
+          "effect": "Reveal critical information about the current scenario that there's no logical way they could know",
+          "cooldown": "Available whenever the party is truly stuck"
+        },
+        "Patron's Whisper": {
+          "effect": "Hear cryptic advice from entities beyond conventional reality, with clarity inversely proportional to urgency",
+          "cooldown": "Active during celestial alignments and moments of extreme danger"
+        },
+        "Reality Bent": {
+          "effect": "Briefly alter local reality through performance, with results ranging from helpful to horrifying",
+          "cooldown": "Available once per tower, with recovery time proportional to how many natural laws were violated"
+        }
+      },
+      "advancement_path": {
+        "novice": "Peculiar Performer with Occasional Prophetic Episodes",
+        "intermediate": "Cosmic Negotiator with Growing Shadow Collection",
+        "expert": "Reality's Acquaintance with Increasingly Concerning Knowledge",
+        "master": "Walking Paradox Whose True Nature Is Best Left Unexamined"
+      },
+      "common_causes_of_death": [
+        "Contractual obligations to entities beyond conventional understanding",
+        "Reality rejection after learning too many cosmic truths",
+        "Technically still alive but existing simultaneously across multiple timelines",
+        "Not actually dead but transformed into something adjacent to conventional life"
+      ]
+    }
+  },
+  "party_composition_guidelines": {
+    "standard_composition": {
+      "minimum_viable_party": ["Warrior", "Healer", "Rogue"],
+      "recommended_balanced_party": ["Warrior", "Mage", "Healer", "Rogue"],
+      "optimized_raiding_party": ["Warrior", "Battle Mathematician", "Healer", "Rogue", "Mage"]
+    },
+    "special_considerations": {
+      "too_many_warriors": "Will solve immediate monster problems but become trapped by basic puzzles",
+      "too_many_mages": "Excessive theoretical knowledge with insufficient practical application capabilities",
+      "too_many_rogues": "Exponentially increasing probability of betrayal and mysterious inventory shrinkage",
+      "no_healer": "Significantly reduced survival expectations and increased resurrection service costs",
+      "including_bard_warlock": "Unpredictable but potentially advantageous; maintain active exit strategy"
+    },
+    "party_dynamics_notes": "Party effectiveness correlates less with individual capabilities and more with their ability to prevent each other from acting on their worst impulses"
+  }
+}

@@ -1,0 +1,171 @@
+# MAGICAL TAXONOMY OF SPELLWICK
+
+## MAGICAL PRACTITIONERS CLASSIFICATION
+
+### PRIMARY DIVISIONS
+
+**WIZARDS**
+- Origin of Power: Studied and acquired through academic discipline
+- Methodology: Systematic application of magical principles following established protocols
+- Habitat: Sensible cottages, university towers, well-organized libraries
+- Distinguishing Features: Practical robes, organized spell components, legible handwriting
+- Social Structure: Hierarchical academic institutions with tenure-based ranking systems
+- Typical Motivation: Knowledge acquisition, theoretical breakthroughs, organized cataloging
+
+**SORCERERS**
+- Origin of Power: Innate abilities present from birth
+- Methodology: Intuitive manipulation of magical forces with dramatic flair
+- Habitat: Unnecessarily tall towers with impractical architectural flourishes
+- Distinguishing Features: Flamboyant attire, dramatic gestures, tendency to monologue
+- Social Structure: Loose association based on ostentatious displays of magical prowess
+- Typical Motivation: Collection of artifacts, architectural one-upmanship, dramatic entrances
+
+### SECONDARY CATEGORIES
+
+**HEALERS**
+- Specialization: Life-sustaining and regenerative magics
+- Methodology: Application of divine or natural energies to bodily systems
+- Distinctive Traits: Perpetual optimism, extensive knowledge of anatomy, disturbing fascination with unusual injuries
+- Professional Hazards: Developing thousand-yard stares, using medical terminology in casual conversation, baking questionable cookies
+
+**WARLOCKS/WITCHES**
+- Origin of Power: Pacts with entities from other planes or ancient bloodlines
+- Methodology: Negotiated exchange of services for access to otherworldly energies
+- Distinguishing Features: Tendency to mutter to invisible presences, collecting odd trinkets, knowing things they shouldn't
+- Professional Hazards: Contract fine print, occasional possession, existential debt collection
+
+**BATTLE MATHEMATICIANS**
+- Origin: Hybrid discipline combining combat training with theoretical mathematics
+- Methodology: Application of precise numerical analysis to optimize combat tactics
+- Distinguishing Features: Carrying both weapons and calculation tools, tribal tattoos depicting formulas
+- Professional Hazards: Mid-battle calculation paralysis, frustration with imprecise comrades, eyebrow strain from excessive expression through minimal movement
+
+## MAGICAL ENERGIES CLASSIFICATION
+
+### PRIMARY ENERGY TYPES
+
+**CONVENTIONAL MAGICAL SPECTRUM**
+- Evocation: Direct energy manipulation (fire, lightning, force)
+- Transmutation: Matter alteration and property manipulation
+- Conjuration: Creation of matter or summoning entities
+- Abjuration: Protection, warding, and defensive magics
+- Divination: Information gathering and future sight
+- Enchantment: Mind and emotion manipulation
+- Illusion: Sensory deception and perception alteration
+- Necromancy: Life force manipulation and animation of the dead
+
+**UNCONVENTIONAL ENERGIES**
+- Chronothaumaturgical Flux: Time manipulation energies, highly unstable
+- Dimensional Boundary Resonance: Energies that thin walls between realities
+- Probabilistic Manipulation Fields: Alters likelihood of events (luck magic)
+- Reality Consensus Override: Makes local reality conform to caster's expectations temporarily
+- Narrative Causality: Magic that functions exclusively according to dramatic necessity
+
+### ENERGY INTERACTIONS
+
+**HARMONIC AMPLIFICATION**
+When certain magical energies interact constructively, producing enhanced effects:
+- Fire + Air = Explosive combustion with increased area of effect
+- Water + Earth = Quicksand generation with enhanced binding properties
+- Time + Probability = "Convenient coincidence" field that ensures optimal timing
+
+**DYSHARMONIC INTERFERENCE**
+When magical energies interact destructively:
+- Fire + Water = Steam explosion and spell cancellation
+- Necromancy + Healing = Unstable semi-living state and practitioner nausea
+- Reality Override + Dimensional Boundary = Spacetime hiccups and temporary physics vacation
+
+## MAGICAL ARTIFACTS CLASSIFICATION
+
+### BY CREATION METHOD
+
+**INTENTIONALLY CRAFTED**
+- Created through deliberate application of magical principles
+- Typically stable, predictable, and serving defined purposes
+- Examples: Enchanted weaponry, warding amulets, scrying mirrors
+
+**ACCIDENTALLY FORMED**
+- Created through magical accidents, often during spellcasting gone wrong
+- Unpredictable effects, frequently with ironic relationship to original intent
+- Examples: The Boots of Reluctant Haste (movement speed increases proportionally with the wearer's desire to stay put)
+
+**NATURALLY OCCURRING**
+- Objects that developed magical properties through environmental exposure
+- Effects typically related to surrounding magical ecology
+- Examples: Resonant crystals from magical convergence zones, wood from trees growing at ley line intersections
+
+### BY CONSEQUENCE RATING
+
+**BENEFIT-CONSEQUENCE RATIO (BCR)**
+A standard metric used by the Spellwick Artifact Evaluation Board:
+
+**BENIGN (BCR: 3.0+)**
+- Magical items with effects that are overwhelmingly positive
+- Side effects minimal or actually beneficial
+- Examples: Self-cleaning kitchenware, minor healing baubles, accurate weather prediction devices
+
+**COMPLEX (BCR: 1.0-2.9)**
+- Magical items with significant benefits but proportional drawbacks
+- Careful usage protocols recommended
+- Examples: Weaponry with powerful effects but user strain, translation devices that occasionally create embarrassing mistranslations
+
+**HAZARDOUS (BCR: 0.1-0.9)**
+- Items where negative consequences outweigh benefits for most users
+- Specialized training recommended before handling
+- Examples: Most sorcerers' collection pieces, anything that alters fundamental forces
+
+**CATASTROPHIC (BCR: <0.1)**
+- Items capable of large-scale destruction or reality alteration
+- Typically kept at tower pinnacles behind multiple security measures
+- Examples: Reality-folding devices, anything described as "technically not a weapon of mass destruction according to the Mages' Convention definitions, section 5, paragraph 3"
+
+## MAGICAL CREATURE TAXONOMY
+
+### TOWER EMPLOYMENT CATEGORIES
+
+**MAINTENANCE DIVISION**
+- Primary Function: Upkeep of tower facilities
+- Examples: Enchanted brooms, animated furniture, gelatinous cubes (janitorial services)
+- Danger Level: Minimal unless provoked or improperly programmed
+
+**SECURITY DIVISION**
+- Primary Function: Unauthorized access prevention
+- Examples: Animated armor, gargoyles, bound elementals
+- Danger Level: Moderate, designed for capture rather than elimination
+
+**EXECUTIVE SECURITY DIVISION**
+- Primary Function: Lethal response to significant threats
+- Examples: Chimeras, phase spiders, bound demons
+- Danger Level: Severe, typically positioned at higher tower levels
+
+**REALITY MAINTENANCE DIVISION**
+- Primary Function: Management of unstable magical environments
+- Examples: Dimensional anchors (semi-sentient), probability stabilizers, paradox absorbers
+- Danger Level: Variable, often dangerous only as a side effect of function
+
+**SPECIAL PROJECTS DIVISION**
+- Primary Function: Whatever the sorcerer thinks is interesting this week
+- Examples: Anything the sorcerer has accidentally or intentionally created
+- Danger Level: Unpredictable, often not known even to the creator
+
+### NOCTURNAL ENTITIES (NON-TOWER)
+
+**STANDARD WILDLIFE**
+- Ordinary animals active at night, typically disappointing tourists with their lack of magical properties
+- Examples: Normal wolves, bats, owls
+- Danger Level: Appropriate to natural species
+
+**ENHANCED WILDLIFE**
+- Animals with minor magical traits developed through magical environmental exposure
+- Examples: Slightly glowing rabbits, speaking (but not particularly insightful) ravens
+- Danger Level: Minimal, though conversations can be tediously mundane
+
+**TRANSITIONAL ENTITIES**
+- Beings that exist partially between planes or states
+- Examples: Ghosts, spectral manifestations, beings composed of magical energies
+- Danger Level: Variable, often tied to emotional state or magical conditions
+
+**DIMENSIONAL VISITORS**
+- Entities from other planes temporarily or permanently residing in Spellwick
+- Examples: Fey creatures, minor demons, planar travelers
+- Danger Level: Highly variable, often proportional to how much local customs annoy them

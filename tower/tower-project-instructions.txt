@@ -1,0 +1,41 @@
+Cognitive framework definition:
+- "NarrativeSpittoon.txt" is a module of instructions for use when generating fictional texts for consideration with Deep Thinking LLMs.
+- "GhostWritingStyle.txt" provide guidelines for the ghost writing style which shall be used in any suggestions for rewrites of any passages that are identified as weak by the scoring systems.
+- "HolographicTutor.txt" contains 4 functions for the high level Scoring, Review, Critique and identifying areas of weakness in a manuscript withholding suggestions by default, at the college degree level.
+
+
+Universe Core Documentation:
+- TOWER-lorebook.md: Primary source document detailing the universe of Spellwick, tower-raiding profession, and adventuring dynamics
+- world.txt: Condensed overview of Spellwick's geography, magical socioeconomics, cultural foundation, and cosmic principles
+- characters.txt: Detailed profiles of the adventuring party members with descriptions, attributes, and roles
+- speechstyles.txt: Linguistic patterns and dialogue construction guides for each character's unique voice
+- magical_taxonomy.txt: Comprehensive classification of magical practitioners, energies, artifacts, and creatures
+- spellwick_glossary.txt: Alphabetical reference of universe-specific terminology and concepts
+- GhostWritingStyle.md: Writing style guidelines for satirical fantasy in the vein of Douglas Adams and Terry Pratchett
+- HolographicTutor.txt: Framework for scoring, reviewing, and critiquing creative writing at college level
+- NarrativeSpittoon.txt: Methodologies for narrative construction and implicit causality
+- story-supplement-001.md: Expedition chronicle documenting The Tower Raiders' attempt to acquire the Orb of Astounding Revelations
+- story-supplement-002.md: Chronicle of The Tower Raiders' encounter with the Quadrumvirate and mistaken identity conspiracy
+
+Technical Specifications:
+- adventurer_class_specs.json: Detailed technical specifications for character classes, abilities, and party dynamics
+- magic_system.json: Comprehensive framework of the Spellwick Arcanomatic Framework defining magical energies and interactions
+- tower_danger_formula.json: Technical implementation of the D = F × (L² + M) ÷ CS formula with variable explanations
+
+Visualization Resources:
+- economic_cycle.mermaid: Flowchart visualizing the wizard-sorcerer-adventurer ecosystem and supporting industries
+- magic_taxonomy.mermaid: Hierarchical chart of magical disciplines, energy types, and practitioner relationships
+- party_dynamics.mermaid: Network diagram showing character relationships, crisis response patterns, and group dynamics
+- tower_layout.mermaid: Vertical visualization of tower levels with corresponding danger ratings and threat classifications
+
+
+Content Structure Tags:
+- The world setting is defined inside "tower\world.txt"
+- The characters personality definitions are listed inside "tower\characters.txt"
+- The characters speech style guidance is defined inside "tower\speechstyles.txt"
+
+
+Processing Framework:
+- Cross-referenced document relationships
+- Technical specification integration
+- Visualization resource utilization

@@ -1,0 +1,112 @@
+flowchart TD
+    %% Magic Taxonomy and Classification Hierarchy
+
+    %% Main Energy Source
+    MagicSource(["Magical Energy\n<small>The fundamental force of Spellwick</small>"])
+    
+    %% Primary Branches
+    ConventionalMagic["Conventional Magic\n<small>Well-documented and relatively predictable</small>"]
+    UnconventionalMagic["Unconventional Magic\n<small>Poorly understood and highly unstable</small>"]
+    
+    %% Conventional Magic Schools
+    Evocation["Evocation\n<small>Direct energy manipulation</small>"]
+    Transmutation["Transmutation\n<small>Alteration of matter and properties</small>"]
+    Conjuration["Conjuration\n<small>Creation and summoning</small>"]
+    Abjuration["Abjuration\n<small>Protection and warding</small>"]
+    Divination["Divination\n<small>Information gathering</small>"]
+    Enchantment["Enchantment\n<small>Mind and emotion manipulation</small>"]
+    Illusion["Illusion\n<small>Sensory deception</small>"]
+    Necromancy["Necromancy\n<small>Life force manipulation</small>"]
+    
+    %% Unconventional Magic Types
+    ChronoMagic["Chronothaumaturgical Flux\n<small>Time manipulation</small>"]
+    DimensionalMagic["Dimensional Boundary Resonance\n<small>Reality thinning</small>"]
+    ProbabilityMagic["Probabilistic Manipulation\n<small>Luck and chance alteration</small>"]
+    RealityMagic["Reality Consensus Override\n<small>Local reality manipulation</small>"]
+    NarrativeMagic["Narrative Causality\n<small>Story-driven magic</small>"]
+    
+    %% Practitioner Types
+    Wizards["Wizards\n<small>Academic, studied power</small>"]
+    Sorcerers["Sorcerers\n<small>Innate, intuitive power</small>"]
+    Healers["Healers\n<small>Restorative specialists</small>"]
+    BattleMathematicians["Battle Mathematicians\n<small>Combat optimization specialists</small>"]
+    WarlockWitches["Warlocks/Witches\n<small>Pact-based practitioners</small>"]
+    
+    %% Connections - Main Branches
+    MagicSource --> ConventionalMagic
+    MagicSource --> UnconventionalMagic
+    
+    %% Conventional Magic Connections
+    ConventionalMagic --> Evocation
+    ConventionalMagic --> Transmutation
+    ConventionalMagic --> Conjuration
+    ConventionalMagic --> Abjuration
+    ConventionalMagic --> Divination
+    ConventionalMagic --> Enchantment
+    ConventionalMagic --> Illusion
+    ConventionalMagic --> Necromancy
+    
+    %% Unconventional Magic Connections
+    UnconventionalMagic --> ChronoMagic
+    UnconventionalMagic --> DimensionalMagic
+    UnconventionalMagic --> ProbabilityMagic
+    UnconventionalMagic --> RealityMagic
+    UnconventionalMagic --> NarrativeMagic
+    
+    %% Practitioner Affinities - Conventional
+    Wizards -->|"Primary Focus"| ConventionalMagic
+    Sorcerers -->|"Intuitive Access"| ConventionalMagic
+    Healers -->|"Specialization"| Abjuration
+    BattleMathematicians -->|"Application"| Transmutation
+    
+    %% Practitioner Affinities - Unconventional
+    Sorcerers -.->|"Occasional Access"| UnconventionalMagic
+    WarlockWitches -.->|"Patron-Granted Access"| UnconventionalMagic
+    
+    %% Specific Discipline Connections
+    Healers -->|"Specialty"| Transmutation
+    BattleMathematicians -->|"Theoretical Understanding"| ProbabilityMagic
+    WarlockWitches -->|"Common Access"| DimensionalMagic
+    
+    %% Energy Interaction Subgroups
+    HarmonicInteractions["Harmonic Interactions\n<small>Constructive energy patterns</small>"]
+    DysharmonicInteractions["Dysharmonic Interactions\n<small>Destructive energy patterns</small>"]
+    
+    ConventionalMagic --> HarmonicInteractions
+    ConventionalMagic --> DysharmonicInteractions
+    UnconventionalMagic --> HarmonicInteractions
+    UnconventionalMagic --> DysharmonicInteractions
+    
+    %% Artifact Relations
+    ArtifactTypes["Magical Artifacts\n<small>Physical manifestations of magical energy</small>"]
+    
+    IntentionalArtifacts["Intentionally Crafted\n<small>Designed magical items</small>"]
+    AccidentalArtifacts["Accidentally Formed\n<small>Magical accidents</small>"]
+    NaturalArtifacts["Naturally Occurring\n<small>Environmental development</small>"]
+    
+    ArtifactTypes --> IntentionalArtifacts
+    ArtifactTypes --> AccidentalArtifacts
+    ArtifactTypes --> NaturalArtifacts
+    
+    %% Artifact Creation Connections
+    ConventionalMagic -->|"Controlled Creation"| IntentionalArtifacts
+    DysharmonicInteractions -->|"Unexpected Results"| AccidentalArtifacts
+    MagicSource -->|"Ambient Exposure"| NaturalArtifacts
+    
+    %% Style Classes
+    classDef source fill:#f9f,stroke:#333,stroke-width:2px
+    classDef mainBranch fill:#bbf,stroke:#33c,stroke-width:2px
+    classDef conventional fill:#ddf,stroke:#33c
+    classDef unconventional fill:#fdd,stroke:#c33
+    classDef practitioner fill:#dfd,stroke:#3c3
+    classDef interaction fill:#ffd,stroke:#cc3
+    classDef artifact fill:#dff,stroke:#3cc
+    
+    %% Apply Classes
+    class MagicSource source
+    class ConventionalMagic,UnconventionalMagic mainBranch
+    class Evocation,Transmutation,Conjuration,Abjuration,Divination,Enchantment,Illusion,Necromancy conventional
+    class ChronoMagic,DimensionalMagic,ProbabilityMagic,RealityMagic,NarrativeMagic unconventional
+    class Wizards,Sorcerers,Healers,BattleMathematicians,WarlockWitches practitioner
+    class HarmonicInteractions,DysharmonicInteractions interaction
+    class ArtifactTypes,IntentionalArtifacts,AccidentalArtifacts,NaturalArtifacts artifact

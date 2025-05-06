@@ -1,0 +1,115 @@
+flowchart TD
+    %% Party Dynamics & Inter-Character Relationships
+
+    %% Core Characters
+    Warrior(["Warrior: Broderick\n<small>Frontline tank</small>"])
+    Mage(["Mage: Lysandra\n<small>Arcane artillery</small>"])
+    Rogue(["Rogue: Thimbletack\n<small>Scout & lockpicker</small>"])
+    Healer(["Healer: Morganthe\n<small>Support & recovery</small>"])
+    BattleMath(["Battle Mathematician: Grok\n<small>Tactician</small>"])
+    BardWarlock(["Bard/Warlock: Whisper\n<small>Face & knowledge source</small>"])
+    
+    %% Standard Functional Relationships
+    Warrior -->|"Protects"| Mage
+    Warrior -->|"Protects"| Healer
+    Healer -->|"Keeps alive"| Warrior
+    Mage -->|"Provides ranged support"| Warrior
+    Rogue -->|"Checks for traps ahead"| Warrior
+    Warrior -->|"Creates distractions"| Rogue
+    Healer -->|"Patches up"| Everyone
+    BattleMath -->|"Optimizes positioning"| Warrior
+    BattleMath -->|"Calculates spell efficiency"| Mage
+    Rogue -->|"Gets party into places"| Everyone
+    BardWarlock -->|"Knows suspiciously specific information"| Everyone
+    
+    %% Complex Inter-Character Dynamics
+    Warrior <-->|"Mutual bewilderment"| Mage
+    BardWarlock <-->|"Cryptic exchanges"| Mage
+    Rogue <-->|"Professional respect"| BattleMath
+    Healer <-->|"Philosophical discussions"| BattleMath
+    Warrior <-->|"Enthusiastic battle planning"| BattleMath
+    Rogue <-->|"Unspoken understanding"| BardWarlock
+    Healer <-->|"Plant discussions"| BardWarlock
+    
+    %% Emotional/Social Support Structure
+    subgraph group_emotional ["Emotional Support Structure"]
+        Healer -->|"Group therapist by default"| Warrior
+        Healer -->|"Provides baked reassurance"| Mage
+        Healer -->|"Knows when to listen"| Rogue
+        BattleMath -->|"Logical reassurance"| Mage
+        Warrior -->|"Uncomplicated encouragement"| Everyone
+        BardWarlock -->|"Cryptic but oddly comforting advice"| Everyone
+    end
+    
+    %% Crisis Management
+    subgraph group_crisis ["Tower Crisis Response Patterns"]
+        Warrior -->|"First to charge danger"| ExternalThreats
+        BattleMath -->|"Calculates escape routes"| ExternalThreats
+        Rogue -->|"Creates distractions"| ExternalThreats
+        Mage -->|"Provides magical solutions"| MagicalProblems
+        BardWarlock -->|"Knows the one weakness"| MagicalProblems
+        BardWarlock -->|"Negotiates"| SorcererEncounter
+        Healer -->|"Makes everyone functional again"| Aftermath
+    end
+    
+    %% External Entities
+    ExternalThreats["External Threats\n<small>Monsters, traps, guards</small>"]
+    MagicalProblems["Magical Problems\n<small>Wards, barriers, anomalies</small>"]
+    SorcererEncounter["Sorcerer Encounter\n<small>The 'Three D's' scenario</small>"]
+    Aftermath["Aftermath\n<small>Post-crisis recovery</small>"]
+    
+    %% Loot Distribution Dynamics
+    subgraph group_loot ["Artifact Acquisition Protocol"]
+        Everyone -->|"Contributes to"| TowerRaid
+        TowerRaid -->|"Results in"| Treasure
+        Treasure -->|"Magical analysis"| Mage
+        Treasure -->|"Value assessment"| Rogue
+        Treasure -->|"Risk calculation"| BattleMath
+        Treasure -->|"Ominous warnings about"| BardWarlock
+        Treasure -->|"Carried by"| Warrior
+        Treasure -->|"Delivered to"| Client
+        Client -->|"Pays"| GuildFees
+        GuildFees -->|"Distributed to"| Everyone
+    end
+    
+    %% Additional Nodes
+    TowerRaid[/"Tower Raid Mission"/]
+    Treasure[(Magical Artifacts)]
+    Client["Wizard Client\n<small>Research purposes only</small>"]
+    GuildFees["Guild Fee Distribution\n<small>After expenses</small>"]
+    Everyone(("The Party"))
+    
+    %% Personality Conflict Zones
+    WarriorRogueTension{{"Impulsiveness vs. Caution\n<small>Eternal tension point</small>"}}
+    MageBardWarlockRivalry{{"Theoretical vs. Intuitive Knowledge\n<small>Academic rivalry</small>"}}
+    BattleMathRogueMethods{{"Calculated vs. Improvised Approaches\n<small>Methodological differences</small>"}}
+    
+    Warrior <-->|"Creates tension"| WarriorRogueTension
+    Rogue <-->|"Creates tension"| WarriorRogueTension
+    Mage <-->|"Academic disagreements"| MageBardWarlockRivalry
+    BardWarlock <-->|"Knows things without studying"| MageBardWarlockRivalry
+    BattleMath <-->|"Prefers planning"| BattleMathRogueMethods
+    Rogue <-->|"Prefers improvisation"| BattleMathRogueMethods
+    
+    %% Styling
+    classDef warrior fill:#d6a4a4,stroke:#a53939,color:#000
+    classDef mage fill:#a4a4d6,stroke:#3939a5,color:#000
+    classDef rogue fill:#a4d6d6,stroke:#39a5a5,color:#000
+    classDef healer fill:#d6d6a4,stroke:#a5a539,color:#000
+    classDef battlemath fill:#d6c3a4,stroke:#a57939,color:#000
+    classDef bardwarlock fill:#d6a4cc,stroke:#a539a5,color:#000
+    classDef group fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
+    classDef objects fill:#a4d6a4,stroke:#39a539,color:#000
+    classDef external fill:#f0f0f0,stroke:#999,color:#000
+    classDef tension fill:#ffcccc,stroke:#cc0000,color:#000
+    
+    class Warrior warrior
+    class Mage mage
+    class Rogue rogue
+    class Healer healer
+    class BattleMath battlemath
+    class BardWarlock bardwarlock
+    class ExternalThreats,MagicalProblems,SorcererEncounter,Aftermath external
+    class TowerRaid,Treasure,Client,GuildFees,Everyone objects
+    class WarriorRogueTension,MageBardWarlockRivalry,BattleMathRogueMethods tension
+    class group_emotional,group_crisis,group_loot group
