@@ -1,0 +1,242 @@
+{
+  "settlements": [
+    {
+      "name": "Chryse Arcology",
+      "type": "Major Urban Center",
+      "location": {
+        "region": "Chryse Planitia",
+        "coordinates": "28.4°N, 37.5°W",
+        "elevation": "-1250m"
+      },
+      "population": {
+        "current": 300000,
+        "capacity": 500000,
+        "growth_rate": "2.3% annual",
+        "restricted_access": ["Lower Levels (C-17 through F-22)"]
+      },
+      "infrastructure": {
+        "structure_type": "Domed Arcology",
+        "power_source": "Fusion Reactors (3)",
+        "water_processing": "Central Reclamation Hub with 7 substations",
+        "agriculture": "Hydroponic Levels 3-7, Aeroponic Towers (12)",
+        "transportation": "Maglev internal system, Spaceport with Earth shuttle service"
+      },
+      "threat_levels": {
+        "primordial_strain": "HIGH",
+        "arachnomorphs": "MEDIUM",
+        "ancient_ruins": "LOW",
+        "notes": "Strain detected in lower level water reclamation systems"
+      },
+      "security": {
+        "perimeter": "Electromagnetic Barrier",
+        "internal": "MSA Central Command, 2000 personnel",
+        "monitoring": "ARGUS Surveillance System, 98.7% coverage"
+      },
+      "status": "OPERATIONAL - PARTIAL QUARANTINE"
+    },
+    {
+      "name": "Olympus Research Center",
+      "type": "Scientific Research Facility",
+      "location": {
+        "region": "Olympus Mons",
+        "coordinates": "18.4°N, 133.6°W",
+        "elevation": "+12500m"
+      },
+      "population": {
+        "current": 8500,
+        "capacity": 10000,
+        "growth_rate": "0% (fixed personnel rotation)",
+        "restricted_access": ["Levels B3-B9", "The Archives"]
+      },
+      "infrastructure": {
+        "structure_type": "Mountain-integrated Complex",
+        "power_source": "Geothermal Taps, Fusion Backup",
+        "water_processing": "Closed-Loop Crystalline Filtration System",
+        "agriculture": "Minimal, Supply Deliveries Required",
+        "transportation": "Vertical Shaft System, Restricted Airfield"
+      },
+      "threat_levels": {
+        "primordial_strain": "CONTAINED",
+        "arachnomorphs": "LOW",
+        "ancient_ruins": "EXTREME",
+        "notes": "Houses primary Ancient artifacts research division"
+      },
+      "security": {
+        "perimeter": "Military-grade Barrier, Drone Surveillance",
+        "internal": "Research Security Division, Specialized Containment Units",
+        "monitoring": "PANOPTICON System, 100% coverage with redundancy"
+      },
+      "status": "OPERATIONAL - CLASSIFIED RESEARCH"
+    },
+    {
+      "name": "Syrtis Major Excavation",
+      "type": "Archaeological Research Site",
+      "location": {
+        "region": "Syrtis Major",
+        "coordinates": "8.4°N, 69.5°E",
+        "elevation": "+1200m"
+      },
+      "population": {
+        "current": 3200,
+        "capacity": 5000,
+        "growth_rate": "12.5% annual",
+        "restricted_access": ["Excavation Zones A-F", "Laboratory Complex"]
+      },
+      "infrastructure": {
+        "structure_type": "Prefabricated Research City",
+        "power_source": "Solar Array (Large), Hydrogen Fuel Cells",
+        "water_processing": "Triple-Redundant Filtration System",
+        "agriculture": "None, All Supplies Imported",
+        "transportation": "Heavy-duty Surface Vehicles, Emergency Evacuation VTOL Craft"
+      },
+      "threat_levels": {
+        "primordial_strain": "MEDIUM",
+        "arachnomorphs": "LOW",
+        "ancient_ruins": "EXTREME",
+        "notes": "First and largest Ancient ruin site, significant psychological effects reported"
+      },
+      "security": {
+        "perimeter": "Continuous Floodlight Perimeter, Military Detachment",
+        "internal": "MAA Security Forces, Cognitive Monitoring Systems",
+        "monitoring": "24/7 Personnel Tracking, Psychological Assessment Protocols"
+      },
+      "status": "OPERATIONAL - RESTRICTED ACCESS"
+    },
+    {
+      "name": "Marineris Trench Communities",
+      "type": "Coastal Settlement Network",
+      "location": {
+        "region": "Valles Marineris Sea",
+        "coordinates": "Various along 0-15°S, 30-90°W",
+        "elevation": "-7500m to -5000m"
+      },
+      "population": {
+        "current": 85000,
+        "capacity": 150000,
+        "growth_rate": "1.7% annual (declining)",
+        "restricted_access": ["Northern Shore Settlements"]
+      },
+      "infrastructure": {
+        "structure_type": "Distributed Dome Network",
+        "power_source": "Wave Energy Converters, Wind Turbines",
+        "water_processing": "Direct Sea Filtration Plants with Enhanced Protocols",
+        "agriculture": "Aquaculture, Coastal Farming",
+        "transportation": "Maritime Vessels, Inter-settlement Maglev"
+      },
+      "threat_levels": {
+        "primordial_strain": "HIGH",
+        "arachnomorphs": "HIGH",
+        "ancient_ruins": "MEDIUM",
+        "notes": "Increasing crystalline formations found along shorelines and underwater"
+      },
+      "security": {
+        "perimeter": "Coastal Monitoring System, Submarine Patrol Units",
+        "internal": "Settlement Defense Forces, Emergency Response Teams",
+        "monitoring": "Water Quality Monitoring Network, Anomaly Detection Systems"
+      },
+      "status": "OPERATIONAL - ELEVATED ALERT"
+    },
+    {
+      "name": "Acidalia Farming Collective",
+      "type": "Agricultural Center",
+      "location": {
+        "region": "Acidalia Planitia",
+        "coordinates": "47.0°N, 22.0°W",
+        "elevation": "-3100m"
+      },
+      "population": {
+        "current": 0,
+        "capacity": 15000,
+        "growth_rate": "N/A",
+        "restricted_access": ["All Areas - Full Quarantine"]
+      },
+      "infrastructure": {
+        "structure_type": "Open-Air Domes with Irrigation Systems",
+        "power_source": "Wind Farm Array (Non-functional)",
+        "water_processing": "Irrigation Network (Compromised)",
+        "agriculture": "Formerly Mars' Largest Food Production Center",
+        "transportation": "Land Transport Hub (Non-functional)"
+      },
+      "threat_levels": {
+        "primordial_strain": "MEDIUM",
+        "arachnomorphs": "EXTREME",
+        "ancient_ruins": "MEDIUM",
+        "notes": "Complete infestation, region covered in crystalline webbing visible from orbit"
+      },
+      "security": {
+        "perimeter": "Automated Defense System, Orbital Surveillance",
+        "internal": "None - Site Lost",
+        "monitoring": "Remote Drone Surveillance Only"
+      },
+      "status": "ABANDONED - CONTAINMENT PERIMETER ESTABLISHED"
+    },
+    {
+      "name": "Polar Research Station South",
+      "type": "Scientific Outpost",
+      "location": {
+        "region": "Southern Polar Cap",
+        "coordinates": "87.0°S, 0.0°E",
+        "elevation": "+4200m"
+      },
+      "population": {
+        "current": 0,
+        "capacity": 200,
+        "growth_rate": "N/A",
+        "restricted_access": ["All Areas - Full Quarantine"]
+      },
+      "infrastructure": {
+        "structure_type": "Ice-integrated Research Station",
+        "power_source": "Nuclear RTG Systems (Status Unknown)",
+        "water_processing": "Ice Harvesting System (Status Unknown)",
+        "agriculture": "None - Supply Dependent",
+        "transportation": "Emergency Escape Vehicles (Unused)"
+      },
+      "threat_levels": {
+        "primordial_strain": "EXTREME",
+        "arachnomorphs": "UNKNOWN",
+        "ancient_ruins": "HIGH",
+        "notes": "Station found intact but abandoned, walls covered in unknown glyphs"
+      },
+      "security": {
+        "perimeter": "Remote Monitoring Only",
+        "internal": "None - Site Lost",
+        "monitoring": "Periodic Drone Overflights"
+      },
+      "status": "ABANDONED - EXTREME RISK DESIGNATION"
+    },
+    {
+      "name": "Northern Pole Facility",
+      "type": "Research Installation",
+      "location": {
+        "region": "Northern Polar Cap",
+        "coordinates": "89.5°N, 0.0°E",
+        "elevation": "+3100m"
+      },
+      "population": {
+        "current": 1250,
+        "capacity": 2000,
+        "growth_rate": "Classified",
+        "restricted_access": ["All Areas - Omega Clearance Required"]
+      },
+      "infrastructure": {
+        "structure_type": "Subterranean Complex",
+        "power_source": "Fusion Plants, Experimental Energy Systems",
+        "water_processing": "Custom Filtration (Technical Specifications Classified)",
+        "agriculture": "None - Supply Dependent",
+        "transportation": "Orbital Shuttle Access Only, Subterranean Transit Network"
+      },
+      "threat_levels": {
+        "primordial_strain": "CLASSIFIED",
+        "arachnomorphs": "CLASSIFIED",
+        "ancient_ruins": "CLASSIFIED",
+        "notes": "Primary excavation site for Project ASCENSION"
+      },
+      "security": {
+        "perimeter": "Satellite Defense Grid, Automated Response Systems",
+        "internal": "Elite Security Detachment, Specialized Containment Protocols",
+        "monitoring": "Advanced Systems (Technical Specifications Classified)"
+      },
+      "status": "OPERATIONAL - ULTRAVIOLET CLEARANCE REQUIRED"
+    }
+  ]
+}

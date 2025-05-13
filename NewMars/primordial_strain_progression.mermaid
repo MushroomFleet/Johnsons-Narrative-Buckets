@@ -1,0 +1,54 @@
+flowchart TB
+    start[Human Host] --> exposure["Exposure Phase\n(Days 1-3)"]
+    
+    exposure --> exp1["Initial Contact\n(Usually through contaminated water)"]
+    exposure --> exp2["Entry via mucous membranes\nor minor skin abrasions"]
+    exposure --> exp3["No detectable symptoms"]
+    exposure --> exp4["Crystalline structures in bloodstream\n(Only visible with specialized imaging)"]
+    
+    exposure --> integration["Integration Phase\n(Days 4-7)"]
+    
+    integration --> int1["Colony establishment in\nneural tissue and major organs"]
+    integration --> int2["Heightened sensory perception\n(especially to light and sound)"]
+    integration --> int3["Irregular sleep patterns"]
+    integration --> int4["Vivid, geometrically complex dreams"]
+    
+    integration --> transformation["Transformation Phase\n(Days 8-14)"]
+    
+    transformation --> trans1["Visible crystalline structures\nbeneath skin (lattice patterns)"]
+    transformation --> trans2["Non-linear, alien cognition"]
+    transformation --> trans3["Perception beyond normal\nhuman light spectrum"]
+    transformation --> trans4["Personality fragmentation\nand loss of human identity"]
+    
+    transformation --> emergence["Emergence Phase\n(Beyond Day 14)"]
+    
+    emergence --> em1["Complete cognitive transformation"]
+    emergence --> em2["Light-based communication\nbetween infected individuals"]
+    emergence --> em3["Coordinated behavior\n(hive-mind properties)"]
+    emergence --> em4["Loss of individual identity"]
+    emergence --> em5["Subsuming into\nPrimordial consciousness"]
+    
+    early["Early Intervention\n(Electromagnetic pulse therapy)"] -.-> exposure
+    early -.-> integration
+    
+    midstage["Mid-stage Intervention\n(Experimental - Controlled Integration)"] -.-> transformation
+    
+    terminal["Terminal Cases\n(Code OMEGA protocols)"] -.-> emergence
+    
+    classDef phase fill:#f9f,stroke:#90b,stroke-width:2px
+    classDef normal fill:#fff,stroke:#999,stroke-width:1px
+    classDef intervention fill:#dfd,stroke:#090,stroke-width:2px
+    classDef critical fill:#fdd,stroke:#d00,stroke-width:2px
+    
+    class exposure,integration,transformation,emergence phase
+    class start normal
+    class early,midstage intervention
+    class terminal critical
+    class em1,em2,em3,em4,em5 critical
+
+    subgraph MedicalNote["MEDICAL DIVISION NOTE"]
+        direction LR
+        note1["Early detection and treatment\nwithin first 7 days shows\n87% success rate"]
+        note2["Cases beyond Day 8 have\n< 23% recovery rate"]
+        note3["No confirmed recoveries beyond Day 14.\nSpecial Research Volunteer\ndesignation applies."]
+    end

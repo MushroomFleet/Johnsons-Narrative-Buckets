@@ -1,0 +1,69 @@
+flowchart TD
+    CEO[Maroque Corporation\nCEO and Board] --> ExecutiveCommittee["Executive Committee\n(Omega Clearance)"]
+    
+    ExecutiveCommittee --> TerraformingDiv["Terraforming Division\n(Public Operations)"]
+    ExecutiveCommittee --> ProjectAscension["Project ASCENSION\n(Classified Research)"]
+    ExecutiveCommittee --> ColonizationDiv["Colonization Division\n(Settlement Management)"]
+    ExecutiveCommittee --> SecurityDiv["Security Division\n(Threat Management)"]
+    
+    %% Terraforming Division
+    TerraformingDiv --> AtmosphericDept["Atmospheric Development\nDepartment"]
+    TerraformingDiv --> HydrologyDept["Hydrological Systems\nDepartment"]
+    TerraformingDiv --> EcologicalDept["Ecological Engineering\nDepartment"]
+    
+    %% Project ASCENSION
+    ProjectAscension --> BioTechApprop["Bio-technological\nAppropriation Unit"]
+    ProjectAscension --> NorthernPoleEx["Northern Pole\nExcavation Operations"]
+    ProjectAscension --> ControlledInt["Controlled Integration\nResearch"]
+    
+    %% Colonization Division
+    ColonizationDiv --> SettlementAdmin["Settlement\nAdministration"]
+    ColonizationDiv --> PublicRelations["Public Relations &\nInformation Control"]
+    ColonizationDiv --> WellnessCenters["Wellness Center\nNetwork"]
+    
+    %% Security Division
+    SecurityDiv --> MSA["Martian Security\nAuthority (MSA)"]
+    SecurityDiv --> ResponseCoord["Response Coordination\nTeam"]
+    SecurityDiv --> CommunityHarmony["Community Harmony\nSpecialists"]
+    
+    %% MSA Branches
+    MSA --> ARU["Arachnomorph\nResponse Units"]
+    MSA --> SET["Safety Enhancement\nTeams"]
+    MSA --> BorderControl["Settlement Perimeter\nControl"]
+    
+    %% Scientific Research Subdivisions
+    ExecutiveCommittee --> ScienceDiv["Scientific Research\nDivision"]
+    
+    ScienceDiv --> XBR["Xenobiological Research\nInitiative (XRI)"]
+    ScienceDiv --> MAA["Martian Archaeological\nAuthority (MAA)"]
+    ScienceDiv --> IXR["Institute for Xenobiological\nResearch (IXR)"]
+    
+    %% Additional important connections
+    WellnessCenters -.-> MemoryMod["Memory Modification\nProgram\n(Epsilon Clearance)"]
+    PublicRelations -.-> NarrativeControl["Narrative Control\nProtocols\n(Delta Clearance)"]
+    NorthernPoleEx -.-> GatewayResearch["Interdimensional Gateway\nResearch\n(Omega Clearance)"]
+    ControlledInt -.-> GUARDIAN["Project GUARDIAN\n(Weaponization Research)\n(Omega Clearance)"]
+    
+    %% Security classifications and color coding
+    classDef public fill:#cfc,stroke:#080,stroke-width:1px
+    classDef delta fill:#acf,stroke:#008,stroke-width:2px
+    classDef epsilon fill:#fac,stroke:#a04,stroke-width:2px
+    classDef omega fill:#faa,stroke:#800,stroke-width:3px
+    
+    class TerraformingDiv,AtmosphericDept,HydrologyDept,EcologicalDept,SettlementAdmin public
+    class PublicRelations,CommunityHarmony,BorderControl,NarrativeControl delta
+    class MSA,ResponseCoord,ARU,SET,WellnessCenters,MemoryMod,MAA,IXR,XBR epsilon
+    class ExecutiveCommittee,ProjectAscension,BioTechApprop,NorthernPoleEx,ControlledInt,GatewayResearch,GUARDIAN omega
+    
+    %% Legend
+    subgraph SecurityClearance["Security Clearance Levels"]
+        PublicInfo["Public Information"]
+        DeltaAccess["Delta Clearance"]
+        EpsilonAccess["Epsilon Clearance"]
+        OmegaAccess["Omega Clearance"]
+    end
+    
+    class PublicInfo public
+    class DeltaAccess delta
+    class EpsilonAccess epsilon
+    class OmegaAccess omega

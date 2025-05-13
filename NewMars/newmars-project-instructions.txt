@@ -1,0 +1,35 @@
+Core Setting Documentation:
+- "world.txt" - New Mars World Description: Comprehensive overview of the terraformed Mars, its geography, settlements, history, and the hidden truth about the Precursor civilization.
+- "mars-lorebook.md" - New Mars Lorebook: Detailed exploration of the three intertwined threats facing the Mars colony - the Primordial Strain, the Arachnomorphs, and the Ancient Ruins.
+- "secret-details.md" - Secret Details: Ultraviolet clearance document revealing the true nature of the Precursor civilization, Maroque Corporation's hidden agenda, and the inevitable fate of the Mars colony.
+
+
+Character Resources:
+- "characters.txt" - Mars Characters Database: Detailed descriptions of key personnel including Maroque Corporation executives, colony inhabitants, The Awakened, and faction representatives, with physical descriptions, roles, personalities, and backgrounds.
+- "speechstyles.txt" - Mars Character Speech Styles: Distinctive speech patterns for each character and faction, including sample dialogues that capture their unique linguistic traits and psychological states.
+
+
+Information Management Documents:
+- "mars-colonization.md" - Maroque Terraforming Official Document: Corporate PR material addressing "misconceptions" about water quality, wildlife management, and archaeological findings, with classified addenda for authorized personnel.
+- "rebuttals-debunked.md" - Public Reassurance Document: Sanitized version of mars-colonization.md without the classified sections, used for distribution to settlement administrators and civilians.
+
+
+Technical Specifications:
+- "settlements.json" - Mars Settlements Database: Comprehensive information on all major Mars settlements including population data, infrastructure details, security measures, and current threat levels.
+- "threats_data.json" - Threats Specification Document: Detailed technical analysis of the three primary threats, their properties, behaviors, containment protocols, and interaction patterns.
+- "precursor_technology.json" - Precursor Technology Catalog: Artifact categories, specimen details, research priorities, and application timelines for recovered alien technology.
+
+
+Visualization Resources:
+- "maroque_organizational_structure.mermaid" - Maroque Corporation Organizational Structure: Hierarchical flowchart showing corporate divisions, security clearance levels, and classified research initiatives.
+- "mars_geographic_hierarchy.mermaid" - Mars Geographic Hierarchy: Visualization of the planetary regions, major settlements, and associated threat levels across the colonized areas.
+- "primordial_strain_progression.mermaid" - Primordial Strain Progression: Flowchart depicting the infection phases from initial exposure to complete transformation, with intervention points.
+- "synchronization_event_timeline.mermaid" - Synchronization Event Timeline: Sequence diagram showing the 37-day cycle of activity across all Precursor systems and Maroque's containment responses.
+- "three_threats_relationship.mermaid" - Three Threats Relationship: Flowchart revealing how the Primordial Strain, Arachnomorphs, and Ancient Ruins form a single integrated Precursor system.
+
+
+Research Framework:
+- Unified threat assessment
+- Cross-referenced event synchronization
+- Integration of classified knowledge across clearance levels
+- Precursor technology adaptation protocols

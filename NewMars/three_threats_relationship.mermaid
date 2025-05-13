@@ -1,0 +1,76 @@
+flowchart TD
+    %% Central Connection
+    Precursors["The Precursor Civilization\n(4.3 Billion Years Ago)"] --> System["Single Integrated\nPrecursor Biotech System"]
+    
+    System --> Strain["The Primordial Strain\n(Maintenance System)"]
+    System --> Arachnomorphs["The Arachnomorphs\n(Maintenance Drones)"]
+    System --> Ruins["The Ancient Ruins\n(Infrastructure)"]
+    
+    %% Primordial Strain Details
+    Strain --> StrainProperties["Properties:\n- Silicon-carbon hybrid biochemistry\n- Geometric self-replication\n- Light-based communication\n- Dormancy capability"]
+    
+    Strain --> StrainFunction["Function:\n- Assessment & repair\n- Adaptation of structures\n- Biomass conversion\n- Host repurposing"]
+    
+    %% Arachnomorph Details
+    Arachnomorphs --> ArachProperties["Properties:\n- Manufactured from local biomass\n- Crystalline internal organs\n- Limited size constraints\n- Programmed behavior"]
+    
+    Arachnomorphs --> ArachFunction["Function:\n- Resource collection\n- Processing networks\n- Territorial monitoring\n- Construction assistance"]
+    
+    %% Ancient Ruins Details
+    Ruins --> RuinProperties["Properties:\n- Non-Euclidean geometry\n- Unknown metal-ceramic composites\n- Reality-warping properties\n- Information storage capability"]
+    
+    Ruins --> RuinFunction["Function:\n- Network hubs\n- Data archives\n- Manufacturing facilities\n- Gateway technology"]
+    
+    %% Key Connections
+    Strain -.-> ManufactureLink["Manufactures"]
+    ManufactureLink -.-> Arachnomorphs
+    
+    Arachnomorphs -.-> MaintainLink["Maintain & Expand"]
+    MaintainLink -.-> Ruins
+    
+    Ruins -.-> ControlLink["Control & Direct"]
+    ControlLink -.-> Strain
+    
+    %% Terraforming Connection
+    Terraforming["Human Terraforming\nProcess"] --> Activation["Reactivation Trigger"]
+    Activation --> Strain
+    Activation --> Arachnomorphs
+    Activation --> Ruins
+    
+    %% Synchronization Events
+    SyncEvents["37-Day Synchronization\nEvents"] --> StrainActivity["Accelerated growth\n& communication"]
+    SyncEvents --> ArachActivity["Coordinated hunting\n& construction"]
+    SyncEvents --> RuinActivity["Energy emissions\n& field effects"]
+    
+    StrainActivity -.-> Strain
+    ArachActivity -.-> Arachnomorphs
+    RuinActivity -.-> Ruins
+    
+    %% Formatting
+    classDef strain fill:#fce,stroke:#d0b,stroke-width:2px
+    classDef arach fill:#efc,stroke:#7a0,stroke-width:2px
+    classDef ruins fill:#cef,stroke:#05b,stroke-width:2px
+    classDef precursor fill:#fcc,stroke:#c00,stroke-width:3px
+    classDef sync fill:#fdc,stroke:#d70,stroke-width:2px
+    classDef human fill:#ddd,stroke:#777,stroke-width:1px
+    
+    class Strain,StrainProperties,StrainFunction strain
+    class Arachnomorphs,ArachProperties,ArachFunction arach
+    class Ruins,RuinProperties,RuinFunction ruins
+    class Precursors,System precursor
+    class SyncEvents,StrainActivity,ArachActivity,RuinActivity sync
+    class Terraforming,Activation human
+    
+    %% Notes
+    subgraph PrecursorNote["CLASSIFIED NOTE: Integrated System Theory"]
+        direction TB
+        SystemNote["All three phenomena are components\nof a single Precursor system\nin different states of dormancy\nand restoration"]
+    end
+    
+    subgraph MaroqueNote["INTERNAL MEMO: ULTRAVIOLET CLEARANCE"]
+        direction TB
+        ObjectiveNote["Priority objective is material extraction\nand technology adaptation before\nsystem reaches full activation\n(Est. 7-12 years)"]
+    end
+    
+    class PrecursorNote,SystemNote precursor
+    class MaroqueNote,ObjectiveNote human

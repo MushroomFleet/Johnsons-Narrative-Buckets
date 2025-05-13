@@ -1,0 +1,134 @@
+MARS CHARACTERS
+
+==== MAROQUE CORPORATION PERSONNEL ====
+
+DR. SAMUEL CHEN
+Description: 54, East Asian/Caucasian mixed heritage, tall and thin with sharp features, meticulously groomed salt-and-pepper hair, always in pristine corporate attire
+Age: 54
+Role: Director of Scientific Research Division, Maroque Corporation; Omega-level clearance
+Personality: Coldly brilliant, values knowledge above ethics, compartmentalizes emotional responses, obsessive dedication to understanding Precursor technology
+Quirks: Maintains extensive physical notes rather than digital records, speaks with precise diction and minimal expression, collects ancient Earth sculptures
+Background: Led terraforming AI programming, personally oversaw Northern Pole Excavation initiation, survived three Primordial Strain exposure incidents through experimental treatment
+
+DIRECTOR ISABELLE MARQUEZ
+Description: 62, Hispanic heritage, compact athletic build despite age, stern facial features with artificial right eye (camera implant), favors tailored military-inspired uniforms
+Age: 62
+Role: Security Division Director, Maroque Corporation; Omega-level clearance
+Personality: Pragmatic, ruthless efficiency in crisis, values order above individual rights, views Mars as strategic asset rather than colony
+Quirks: Habitually carries antique combat knife, frequently quotes ancient military philosophers, maintains physical fitness regime matching personnel half her age
+Background: Former Earth military special operations, personally oversaw first Arachnomorph containment operations, lost eye during Acidalia Farming Collective evacuation operation
+
+DR. ELIZA KAGAMI (THE ARCHIVIST)
+Description: 46, Japanese-Brazilian heritage, average height with wiry strength, permanently tired eyes behind smart-glass spectacles, typically dressed in field research attire with numerous pockets
+Age: 46
+Role: Former MAA researcher, now leader of the Pattern Seekers; officially listed as "missing"
+Personality: Obsessively detail-oriented, ethical but secretive, driven by need to uncover and preserve truth, increasingly paranoid
+Quirks: Maintains elaborate analog documentation system using self-developed shorthand, frequently talks to herself, collects soil samples from every location she visits
+Background: Former colleague of Dr. Elena Morozova, discovered discrepancies in terraforming data, faked her death during Chryse Incident to pursue independent research
+
+ADMINISTRATOR VICTOR OKAFOR
+Description: 58, Nigerian heritage, imposing physical presence with broad shoulders, immaculately groomed with meticulously trimmed beard, favors expensive business attire in muted colors
+Age: 58
+Role: Chryse Arcology Chief Administrator, Settlement Administration Division
+Personality: Diplomatic, politically skilled, presents caring public image while ruthlessly implementing Maroque directives, ambitious
+Quirks: Delivers speeches with theatrical precision, maintains collection of Earth antiques, obsessively monitors personal approval ratings
+Background: Rose through corporate ranks through combination of administrative skill and political maneuvering, knows enough about the truth to be useful but lacks full clearance
+
+DR. ELENA MOROZOVA
+Description: [Former appearance] 42, Eastern European heritage, slight build with intense eyes, habitually wore hair in tight braid, preferred practical lab attire; [Current status] Unknown/Deceased
+Age: 42 (at time of "transfer")
+Role: Former lead biochemist at Aeolis Shores Research Station
+Personality: Intellectually fearless, ethical, stubborn pursuit of truth, refused to accept inconsistencies in official narratives
+Quirks: Used colorful hand-drawn diagrams to explain complex concepts, had extensive knowledge of pre-collapse Earth folk music, habitually bit lower lip when concentrating
+Background: Discovered the Primordial Strain, attempted to present findings at Chryse Science Conference, officially "transferred to Earth operations" but no record exists of her arrival on Earth
+
+==== COLONY INHABITANTS ====
+
+DR. KAITO KAMIYA
+Description: 36, Japanese heritage, average height with lean runner's build, perpetually anxious expression, typically dressed in rumpled research attire with multiple datapads
+Age: 36
+Role: Water Systems Engineer, Chryse Arcology
+Personality: Brilliant but socially awkward, detail-obsessed, growing paranoia about water safety, torn between duty and truth
+Quirks: Constantly tests water samples even in social situations, maintains extensive personal filtration system in home, speaks in technical jargon when nervous
+Background: Detected anomalies in water reclamation systems but was ordered to adjust testing parameters, secretly collecting evidence of Primordial Strain contamination
+
+SOPHIA AFOLAYAN
+Description: 28, Nigerian-British heritage, tall and athletic, typically wears customized maintenance uniform with numerous unofficial modifications, has small crystalline growth behind left ear (concealed by hair)
+Age: 28
+Role: Infrastructure Maintenance Technician, Chryse Arcology lower levels
+Personality: Resourceful, independent-minded, increasingly influenced by Primordial Strain early-stage infection, development of non-linear thinking
+Quirks: Creates intricate geometric art in free time, has developed hypersensitivity to light, can "sense" water system problems before instruments detect them
+Background: Exposed to Primordial Strain during routine maintenance operation, experiencing early integration phase symptoms but hiding condition to avoid "medical assistance"
+
+CAPTAIN DIANA MARTINEZ
+Description: 44, Hispanic heritage, compact muscular build, numerous small scars on face and arms, typically in MSA tactical gear or modified duty uniform
+Age: 44
+Role: Arachnomorph Response Unit Commander, Martian Security Authority
+Personality: Uncompromising, tactically brilliant, protective of her team, increasingly disturbed by orders to capture rather than eliminate certain specimens
+Quirks: Carries "lucky" sonic disruptor from first mission, studies arachnid biology obsessively, maintains journal of encounter observations against regulations
+Background: Survived three major Arachnomorph outbreaks, including Acidalia Farming Collective collapse, discovered evidence of directed intelligence in Arachnomorph behavior
+
+PROFESSOR GABRIEL OKORO
+Description: 67, Nigerian heritage, short with stooped posture from decades of academic work, wild gray hair, typically dressed in rumpled academic attire with archaic visual enhancement goggles
+Age: 67
+Role: Linguist and Mathematician, Syrtis Major Excavation
+Personality: Intellectually motivated, disinterested in politics, single-minded focus on understanding Precursor language, increasingly influenced by ruin exposure
+Quirks: Sketches Precursor symbols unconsciously during conversations, experiences time perception anomalies, has developed ability to mentally visualize higher-dimensional mathematics
+Background: Leading effort to decode Precursor glyphs, experiencing significant psychological effects from extended ruin exposure but considered too valuable to remove
+
+LIEUTENANT MARCO BAILEY
+Description: 32, African American heritage, tall and powerfully built, military bearing, typically in MSA uniform or tactical gear, distinctive scar running from left temple to jaw
+Age: 32
+Role: Security Officer, Olympus Research Center
+Personality: By-the-book, loyal to Maroque, growing unease about research practices, conflicted between duty and ethics
+Quirks: Maintains immaculate equipment, speaks in clipped military terminology, collects ancient Earth military insignia
+Background: Assigned to artifact security after distinguished service in perimeter defense, witnessed containment breach involving Neural Interface Crown testing
+
+==== THE AWAKENED ====
+
+IRIS KWON (CRYSTALLINE IRIS)
+Description: 34, Korean heritage, slight build, features showing symmetrical crystalline growths beneath skin in geometric patterns, eyes with subtle internal luminescence, wears flowing garments that conceal extent of transformation
+Age: 34
+Role: Leader of The Awakened, former medical researcher
+Personality: Charismatic, messianic conviction in Primordial Strain as next evolution, retains human identity while embracing transformation, strategic thinker
+Quirks: Can perceive light beyond human spectrum, communicates with other Awakened through subtle light emissions, experiences geometric dreams of Mars' future
+Background: Deliberately exposed herself to controlled amounts of Primordial Strain, developed technique to halt integration at specific phase, maintains human consciousness while accessing Strain abilities
+
+MICHAEL ASH
+Description: 41, Caucasian heritage, average build showing early signs of Primordial Strain integration with crystalline tracery visible at wrists and neck, eyes with slight luminous quality, wears medical researcher attire
+Age: 41
+Role: Medical specialist for The Awakened, former Maroque physician
+Personality: Compassionate, scientifically curious, believes controlled integration offers human advancement, maintains ethical boundaries
+Quirks: Habitually examines integration patterns in others, can diagnose conditions through heightened sensory perception, maintains detailed records of transformation process
+Background: Worked on Project GUARDIAN research, became disillusioned with weaponization focus, defected to The Awakened with valuable medical knowledge
+
+==== FACTIONS AND GROUPS ====
+
+THE PATTERN SEEKERS
+Description: A secretive network of researchers, linguists, and former MAA personnel led by Eliza Kagami ("The Archivist")
+Role: Document and decode the connections between Precursor phenomena, preserve truth independent of Maroque control
+Methodology: Uses analog documentation to avoid digital monitoring, establishes hidden caches of information, develops mathematical models of Precursor systems
+Key Discovery: Identified mathematical relationships between ruin layouts, Strain structures, Arachnomorph web patterns, and successful human architecture
+
+THE AWAKENED
+Description: Individuals partially infected with Primordial Strain who have stabilized at mid-stage transformation
+Organization: Cell-based structure with no central location, communicates through light-based signals undetectable to normal humans
+Philosophy: Believes controlled integration with the Strain represents human evolution, seeks to facilitate "enlightened transformation"
+Abilities: Enhanced sensory perception, limited light-based communication, geometric cognition beyond normal human capability
+
+MARTIAN ORTHODOX CHURCH
+Description: Religious organization interpreting Precursor discoveries through theological framework
+Leadership: Father Dimitri Volkov (former astrophysicist) serves as Patriarch
+Doctrine: Ancient structures are demonic in origin, Primordial Strain is biblical plague testing humanity's faith
+Practices: Ritual water blessing ceremonies, symbolic protective markings around settlements, prayer sessions during Synchronization Events
+
+COMMUNITY HARMONY SPECIALISTS
+Description: Maroque's covert internal security force operating under public relations cover
+Methods: Identify dissidents through Wellness Center visits, deploy memory modification techniques, arrange "transfers" of problematic individuals
+Equipment: Specialized cognitive assessment tools disguised as medical devices, memory suppression technology derived from Precursor research
+
+ARACHNOMORPH RESPONSE UNITS (ARUs)
+Description: Elite MSA tactical teams specifically trained for Arachnomorph containment and elimination
+Equipment: Sonic disruptors tuned to crystalline resonance frequency, specialized detection equipment, thermal imaging enhanced for Arachnomorph signatures
+Tactics: Rapid deployment, perimeter establishment, systematic elimination protocols
+Casualties: 63% injury rate, 17% mortality rate despite advanced training and equipment

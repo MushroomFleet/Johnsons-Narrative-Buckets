@@ -1,0 +1,62 @@
+flowchart TB
+    Mars[Mars / New Mars] --> Northern["Northern Regions"]
+    Mars --> Central["Central Regions"]
+    Mars --> Southern["Southern Regions"]
+    
+    %% Northern Regions
+    Northern --> NorthernOcean["Northern Ocean\n(Water Body)"]
+    Northern --> NorthernPole["Northern Pole\n(Restricted Research Zone)"]
+    Northern --> NorthernWilderness["Northern Wilderness\n(Unexplored Region)"]
+    
+    %% Central Regions
+    Central --> ChrysePlanitia["Chryse Planitia"]
+    Central --> TharsisPlateau["Tharsis Highlands\n(Continental Landmass)"]
+    Central --> AcidaliaPlanitia["Acidalia Planitia"]
+    Central --> SyrtisMajor["Syrtis Major"]
+    
+    %% Southern Regions
+    Southern --> VallesMarineris["Valles Marineris Sea\n(Inland Water Body)"]
+    Southern --> HellasBasin["Hellas Basin Deep\n(Deepest Ocean)"]
+    Southern --> SouthPole["Southern Pole"]
+    
+    %% Major Settlements
+    ChrysePlanitia --> ChryseDome["Chryse Arcology\n(Pop. 300,000)\n[Threat: P-High, A-Medium, R-Low]"]
+    TharsisPlateau --> OlympusResearch["Olympus Research Center\n[Threat: P-Contained, A-Low, R-Extreme]"]
+    SyrtisMajor --> SyrtisExcavation["Syrtis Major Excavation\n[Threat: P-Medium, A-Low, R-Extreme]"]
+    AcidaliaPlanitia --> AcidaliaComplex["Acidalia Farming Collective\n(Abandoned)\n[Threat: P-Medium, A-Extreme, R-Medium]"]
+    VallesMarineris --> MarinerisCommunities["Marineris Trench Communities\n[Threat: P-High, A-High, R-Medium]"]
+    SouthPole --> PolarResearchSouth["Polar Research Station South\n(Abandoned)\n[Threat: P-Extreme, A-Unknown, R-High]"]
+    
+    %% Adding colors based on safety level
+    classDef safe fill:#9f9,stroke:#080,stroke-width:2px
+    classDef medium fill:#fd9,stroke:#b80,stroke-width:2px
+    classDef dangerous fill:#f99,stroke:#b00,stroke-width:3px
+    classDef abandoned fill:#c9c,stroke:#808,stroke-width:3px
+    classDef restricted fill:#99f,stroke:#008,stroke-width:3px
+    
+    class ChryseDome medium
+    class OlympusResearch dangerous
+    class SyrtisExcavation dangerous
+    class AcidaliaComplex abandoned
+    class MarinerisCommunities medium
+    class PolarResearchSouth abandoned
+    class NorthernPole restricted
+    class NorthernWilderness dangerous
+    
+    %% Legend
+    subgraph Legend["Threat Level Legend"]
+        Safe["Safe Zone"]
+        Medium["Medium Risk"]
+        Dangerous["High Risk"]
+        Abandoned["Abandoned"]
+        Restricted["Restricted Access"]
+    end
+    
+    class Safe safe
+    class Medium medium
+    class Dangerous dangerous
+    class Abandoned abandoned
+    class Restricted restricted
+    
+    %% Note
+    note["Note: P = Primordial Strain, A = Arachnomorph, R = Ancient Ruins"]
